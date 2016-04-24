@@ -1,0 +1,123 @@
+$puzzle-width-xs: 100%;
+$puzzle-width-sm: 720px;
+$puzzle-width-md: 940px;
+$puzzle-width-lg: 1140px;
+
+$tiers: 0 3 2, 1 4 3, 2 5 3,
+         3 6 4, 4 7 4, 5 8 5;
+
+.puzzle-wrapper:before {
+  content: "";
+  display: block;
+}
+#puzzle-wrapper {
+  position: relative;
+  width: 100%;
+}
+.puzzle-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+.puzzle-cell {
+  box-shadow: inset 0px 0px 1px 1px #111;
+  z-index: 5;
+}
+
+@each $tier, $tierx, $tiery in $tiers {
+  #puzzle-main[data-tier="#{$tier}"] {
+
+    #puzzle-wrapper {
+      padding-top: 59.031979256698%;
+    }
+    .puzzle-cell {
+      position: absolute;
+      width: 100% / $tierx;
+      height: 100% / $tiery;
+      background-size: 100% * $tierx;
+    }
+    @for $i from 0 through $tiery - 1 {
+      @for $j from 0 through $tierx - 1 {
+        .puzzle-cell[data-cell="#{$i * $tierx + $j}"] {
+          background-position: (100% * $j / ($tierx - 1)) (100% * $i / ($tiery - 1));
+        }
+      }
+    }
+    @for $i from 0 through $tiery - 1 {
+      @for $j from 0 through $tierx - 1 {
+        .puzzle-cell[data-pos="#{$i * $tierx + $j}"] {
+          top: 100% * $i / $tiery;
+          left: 100% * $j / $tierx;
+        }
+      }
+    }
+  }
+}
+
+@import "skins";
+
+@each $skin, $url in $skins {
+  #puzzle-main[data-skin="#{$skin}"] > div {
+    background-color: #131313;
+  }
+  #puzzle-main[data-skin="#{$skin}"] > div::after {
+    background-image: url($url);
+    background-size: cover;
+    content: "";
+    opacity: 0.20;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    filter: grayscale(50%) blur(5px);
+  }
+  #puzzle-main[data-skin="#{$skin}"] .puzzle-cell {
+    background-image: url($url);
+  }
+}
+
+#champion-select {
+  left: -160px;
+  overflow: auto;
+}
+.champion-icon {
+  width: 20px;
+  height: 20px;
+  margin: -1px 0;
+}
+@media (max-width: 479px) {
+  #champion-select {
+    -moz-column-count: 2;
+    column-count: 2;
+    max-height: 320px;
+  }
+}
+@media (min-width: 480px) and (max-width: 719px) {
+  #champion-select {
+    -moz-column-count: 3;
+    column-count: 3;
+    max-height: 360px;
+  }
+}
+@media (min-width: 720px) and (max-width: 959px) {
+  #champion-select {
+    -moz-column-count: 4;
+    column-count: 4;
+    max-height: 500px;
+  }
+}
+@media (min-width: 960px) {
+  #champion-select {
+    -moz-column-count: 5;
+    column-count: 5;
+    max-height: 600px;
+  }
+}
+
+#tier-select > li:not(.disabled) .tier-select-lock {
+  display: none;
+}

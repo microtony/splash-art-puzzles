@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Splash Art Puzzles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/theme.min.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/puzzle.css" type="text/css">
+  </head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./puzzle.htm">Splash Art Puzzles</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="champion-selected">Champion</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu" id="champion-select">
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" id="skin-select-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="skin-selected">Skin</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu" id="skin-select">
+              <li class="disabled"><a href="#">Select champion first</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" id="tier-select-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="tier-selected">Level 0</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu" id="tier-select">
+              <li id="tier-select-0"><a href="#">Level 0 (3x2) <span class="tier-select-lock">🔒</span></a></li>
+              <li id="tier-select-1"><a href="#">Level 1 (4x3) <span class="tier-select-lock">🔒</span></a></li>
+              <li id="tier-select-2"><a href="#">Level 2 (5x3) <span class="tier-select-lock">🔒</span></a></li>
+              <li id="tier-select-3"><a href="#">Level 3 (6x4) <span class="tier-select-lock">🔒</span></a></li>
+              <li id="tier-select-4" class="disabled"><a href="#">Level 4 (7x4) <span class="tier-select-lock">🔒</span></a></li>
+              <li id="tier-select-5" class="disabled"><a href="#">Level 5 (8x5) <span class="tier-select-lock">🔒</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="puzzle-main" data-skin="Aatrox_0" data-tier="0">
+          <div id="puzzle-wrapper"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+  <script src="js/jquery.mousewheel.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="js/data.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/interface.js"></script>
+</html>
