@@ -20,6 +20,7 @@ $(function() {
     var name = Champions[champ].skins[num][1];
     $('#skin-selected').html(name == 'default' ? 'Default Skin' : name);
     $('#puzzle-main').attr('data-skin', Champions[champ].skins[num][0]);
+    $('#hint').attr('data-skin', Champions[champ].skins[num][0]);
   };
   var selectTier = function(tier) {
     $('#tier-selected').html('Level ' + tier);

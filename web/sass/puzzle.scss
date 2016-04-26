@@ -21,11 +21,28 @@ $tiers: 0 3 2, 1 4 3, 2 5 3,
   right: 0;
   bottom: 0
 }
-.puzzle-cell {
+#puzzle-main:not(.puzzle-finished) .puzzle-cell {
   box-shadow: inset 0px 0px 1px 1px #111;
   z-index: 5;
 }
-
+#puzzle-main:not(.puzzle-finished) .puzzle-cell.movable {
+  //box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 192, 0.4);
+  cursor: pointer;
+}
+#puzzle-main:not(.puzzle-finished) .puzzle-cell.movable:hover {
+  filter: brightness(150%) contrast(80%);
+}
+#hint-wrapper {
+  max-width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #000;
+}
+#hint {
+  position: relative;
+  padding-top: 59.0123456%;
+  background-size: contain;
+}
 @each $tier, $tierx, $tiery in $tiers {
   #puzzle-main[data-tier="#{$tier}"] {
 
@@ -76,6 +93,9 @@ $tiers: 0 3 2, 1 4 3, 2 5 3,
     filter: grayscale(50%) blur(5px);
   }
   #puzzle-main[data-skin="#{$skin}"] .puzzle-cell {
+    background-image: url($url);
+  }
+  #hint[data-skin="#{$skin}"] {
     background-image: url($url);
   }
 }
