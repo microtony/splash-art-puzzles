@@ -1,0 +1,34 @@
+{
+  "name": "splash-art-puzzles",
+  "version": "1.0.0",
+  "description": "Splash Art Puzzles",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microtony/splash-art-puzzles.git"
+  },
+  "keywords": [
+    "League",
+    "API Challenge"
+  ],
+  "author": "Tony Wong",
+  "bugs": {
+    "url": "https://github.com/microtony/splash-art-puzzles/issues"
+  },
+  "homepage": "https://github.com/microtony/splash-art-puzzles",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-session": "^1.13.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  }
+}
