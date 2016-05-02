@@ -26,6 +26,7 @@ $(function() {
     $('#tier-selected').html('Level ' + tier);
     $('#puzzle-main').attr('data-tier', tier);
     Game.init();
+    $(".navbar-toggle:not(.collapsed)").trigger("click");
   };
   for (var i = 0; i <= 5; i++) {
     $('#tier-select-' + i + ' a').click(function(i) {
@@ -51,11 +52,13 @@ $(function() {
     $('#skin-select-toggle').dropdown('toggle');
   });
   (function() {
-    var len = Champions.length;
+    var keys = Object.keys(Champions);
+    var len = keys.length;
     var id = Math.floor(Math.random() * len);
-    selectChampion(id);
-    len = Champions[id].skins.length;
-    selectSkin(id, Math.floor(Math.random() * len));
+    var champ = keys[id];
+    selectChampion(champ);
+    len = Champions[champ].skins.length;
+    selectSkin(champ, Math.floor(Math.random() * len));
     selectTier(0);
   })();
   $('#champion-select').mousewheel(function(event, delta) {

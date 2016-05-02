@@ -7,7 +7,6 @@ $version = $versions["dd"];
 $language = $versions["l"];
 $championurl = "$cdn/$version/data/$language/champion.json";
 $champions = json_decode(file_get_contents($championurl), true);
-$imageurl = "$cdn/img/champion/splash/";
 
 $lines = [];
 $championdata = [];
@@ -19,12 +18,21 @@ foreach ($champions["data"] as $champion) {
   $skinnames = [];
   foreach ($skins as $skin) {
     $skinid = $championid . "_" . $skin["num"];
-    $lines[] = $skinid . ': "' . $imageurl . $skinid . '.jpg"';
-    $skinnames[] = [$skinid, $skin["name"]];
+    $lines[] = $skinid . ': "' . "$cdn/img/champion/splash/" . $skinid . '.jpg"';
+    $reqlevel = 0;
+    if ($skin["num"] > 0) {
+      $reqlevel = hexdec(substr(md5($skinid), 0, 6)) % 5 + 1;
+    }
+    $skinnames[] = [$skinid, $skin["name"], $reqlevel];
   }
   echo $championid . "\n";
-  $championdata[] = ["id" => $championid, "name" => $details["data"][$championid]["name"], "skins" => $skinnames];
+  $championdata[$championid] = [
+    "id" => $championid,
+    "name" => $details["data"][$championid]["name"],
+    "skins" => $skinnames,
+    "icon" => "$cdn/$version/img/champion/" . $championid . '.png'];
 }
 
-file_put_contents("sass/skins.scss", "\$skins: (\n  ". implode(",\n  ", $lines) . "\n);");
-file_put_contents("js/data.js", "Champion = " . json_encode($championdata));
+file_put_contents("../public/sass/skins.scss", "\$skins: (\n  ". implode(",\n  ", $lines) . "\n);");
+file_put_contents("../champions.js", "module.exports = " . json_encode($championdata));
+file_put_contents("../public/javascripts/champions.js", "Champions = " . json_encode($championdata));
