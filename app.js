@@ -5,8 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+var controller = require('./controller');
 
 var app = express();
 
@@ -22,8 +21,23 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+var mongoose = require('mongoose');
+mongoose.connect(process.env.OPENSHIFT_MONGODB_DB_URL || 'mongodb://localhost/sap');
+
+const session = require('express-session');
+const MongoStore = require('connect-mongo')(session);
+
+app.use(session({
+  secret: process.env.SAP_SECRET || 'sap-microtony',
+  saveUninitialized: true, // don't create session until something stored
+  resave: false, //don't save session if unmodified
+  store: new MongoStore({
+    mongooseConnection: mongoose.connection,
+    autoRemove: 'disabled'
+  })
+}));
+
+app.use('/', controller);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -55,6 +69,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
 
 module.exports = app;
