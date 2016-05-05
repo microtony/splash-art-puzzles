@@ -5,12 +5,6 @@ var mongoose = require('mongoose');
 var ObjectId = mongoose.Types.ObjectId;
 var champions = require('./champions');
 
-var createUser = function(session) {
-  var user = new User();
-  user.save();
-  session.user = user.id;
-  return user;
-}
 router.get('/user', function(req, res, next) {
   if (!req.session.user) {
     return res.send({});
@@ -44,18 +38,43 @@ router.post('/save', function(req, res, next) {
   if ([0, 1, 2, 3, 4, 5].indexOf(level) == -1) {
     return res.status(500).send({'error' : 'invalid level'}); 
   }
-  if (!req.session.user) {
-    createUser(req.session);
-  }
   var unlock = level == 5 ? 5 : level + 1;
-  User.findById(req.session.user).exec(function(err, user) {
-    var manual = user.get('manual.' + champion) || 0;
-    var account = user.get('account.' + champion) || 0;
-    if (unlock > manual) {
-      user.set('manual.' + champion, unlock);
-      user.save();
+  var unlockLevel = function(user) {
+    var manual = 0;
+    var account = 0;
+    for (var i in user.account) {
+      if (user.account[i].champion == champion) {
+        account = user.account[i].level;
+        break;
+      }
     }
-    return res.send({'unlock' : unlock > manual && unlock > account});
+    var found = false;
+    for (var i in user.manual) {
+      if (user.manual[i].champion == champion) {
+        found = true;
+        manual = user.manual[i].level;
+        if (unlock > manual) {
+          user.manual[i].level = unlock;
+        }
+        break;
+      }
+    }
+    if (!found) {
+      user.manual.push({ champion: champion, level: unlock });
+    }
+    user.save();
+    return res.send({'unlock' : (unlock > manual && unlock > account) ? unlock : false});
+  }
+  User.findById(req.session.user).exec(function(err, user) {
+    if (!user) {
+      user = new User();
+      user.save(function(err) {
+        req.session.user = user.id;
+        unlockLevel(user);
+      });
+    } else {
+      unlockLevel(user);
+    }
   });
 });
 

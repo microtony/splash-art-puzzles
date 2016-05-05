@@ -23,6 +23,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 var mongoose = require('mongoose');
 mongoose.connect(process.env.OPENSHIFT_MONGODB_DB_URL || 'mongodb://localhost/sap');
+mongoose.connection.on("error", function(err){
+  console.log(err); 
+});
 
 const session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
@@ -34,7 +37,8 @@ app.use(session({
   store: new MongoStore({
     mongooseConnection: mongoose.connection,
     autoRemove: 'disabled'
-  })
+  }),
+  cookie: { maxAge: 86400 * 365 * 10 }
 }));
 
 app.use('/', controller);

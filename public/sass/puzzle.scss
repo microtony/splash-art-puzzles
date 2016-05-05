@@ -3,7 +3,7 @@ $puzzle-width-sm: 720px;
 $puzzle-width-md: 940px;
 $puzzle-width-lg: 1140px;
 
-$tiers: 0 3 2, 1 4 3, 2 5 3,
+$levels: 0 3 2, 1 4 3, 2 5 3,
          3 6 4, 4 7 4, 5 8 5;
 
 .puzzle-wrapper:before {
@@ -43,30 +43,30 @@ $tiers: 0 3 2, 1 4 3, 2 5 3,
   padding-top: 59.0123456%;
   background-size: contain;
 }
-@each $tier, $tierx, $tiery in $tiers {
-  #puzzle-main[data-tier="#{$tier}"] {
+@each $level, $levelx, $levely in $levels {
+  #puzzle-main[data-level="#{$level}"] {
 
     #puzzle-wrapper {
       padding-top: 59.031979256698%;
     }
     .puzzle-cell {
       position: absolute;
-      width: 100% / $tierx;
-      height: 100% / $tiery;
-      background-size: 100% * $tierx;
+      width: 100% / $levelx;
+      height: 100% / $levely;
+      background-size: 100% * $levelx;
     }
-    @for $i from 0 through $tiery - 1 {
-      @for $j from 0 through $tierx - 1 {
-        .puzzle-cell[data-cell="#{$i * $tierx + $j}"] {
-          background-position: (100% * $j / ($tierx - 1)) (100% * $i / ($tiery - 1));
+    @for $i from 0 through $levely - 1 {
+      @for $j from 0 through $levelx - 1 {
+        .puzzle-cell[data-cell="#{$i * $levelx + $j}"] {
+          background-position: (100% * $j / ($levelx - 1)) (100% * $i / ($levely - 1));
         }
       }
     }
-    @for $i from 0 through $tiery - 1 {
-      @for $j from 0 through $tierx - 1 {
-        .puzzle-cell[data-pos="#{$i * $tierx + $j}"] {
-          top: 100% * $i / $tiery;
-          left: 100% * $j / $tierx;
+    @for $i from 0 through $levely - 1 {
+      @for $j from 0 through $levelx - 1 {
+        .puzzle-cell[data-pos="#{$i * $levelx + $j}"] {
+          top: 100% * $i / $levely;
+          left: 100% * $j / $levelx;
         }
       }
     }
@@ -138,6 +138,35 @@ $tiers: 0 3 2, 1 4 3, 2 5 3,
   }
 }
 
-#tier-select > li:not(.disabled) .tier-select-lock {
-  display: none;
+@for $i from 0 through 5 {
+  @for $j from 0 through $i {
+    #level-select[data-unlocked="#{$i}"] li#level-select-#{$j} .level-select-lock {
+      display: none;
+    }
+  }
+  #level-select[data-unlocked="#{$i}"] li#level-select-#{$i} a {
+    color: #FF0;
+  }
+  @for $j from $i + 1 through 5 {
+    #level-select[data-unlocked="#{$i}"] li#level-select-#{$j} a {
+      color: #999;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.badge[data-level="1"] {
+  background-color: #099;
+}
+.badge[data-level="2"] {
+  background-color: #0A4;
+}
+.badge[data-level="3"] {
+  background-color: #5A0;
+}
+.badge[data-level="4"] {
+  background-color: #A60;
+}
+.badge[data-level="5"] {
+  background-color: #B00;
 }

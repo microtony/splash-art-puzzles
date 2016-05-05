@@ -51,1198 +51,1198 @@
 }
 
 /* line 49, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] #puzzle-wrapper {
+#puzzle-main[data-level="0"] #puzzle-wrapper {
   padding-top: 59.031979256698%;
 }
 /* line 52, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell {
+#puzzle-main[data-level="0"] .puzzle-cell {
   position: absolute;
   width: 33.3333333333%;
   height: 50%;
   background-size: 300%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-cell="0"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-cell="0"] {
   background-position: 0% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-cell="1"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-cell="1"] {
   background-position: 50% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-cell="2"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-cell="2"] {
   background-position: 100% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-cell="3"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-cell="3"] {
   background-position: 0% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-cell="4"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-cell="4"] {
   background-position: 50% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-cell="5"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-cell="5"] {
   background-position: 100% 100%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-pos="0"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-pos="0"] {
   top: 0%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-pos="1"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-pos="1"] {
   top: 0%;
   left: 33.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-pos="2"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-pos="2"] {
   top: 0%;
   left: 66.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-pos="3"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-pos="3"] {
   top: 50%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-pos="4"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-pos="4"] {
   top: 50%;
   left: 33.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="0"] .puzzle-cell[data-pos="5"] {
+#puzzle-main[data-level="0"] .puzzle-cell[data-pos="5"] {
   top: 50%;
   left: 66.6666666667%;
 }
 
 /* line 49, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] #puzzle-wrapper {
+#puzzle-main[data-level="1"] #puzzle-wrapper {
   padding-top: 59.031979256698%;
 }
 /* line 52, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell {
+#puzzle-main[data-level="1"] .puzzle-cell {
   position: absolute;
   width: 25%;
   height: 33.3333333333%;
   background-size: 400%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="0"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="0"] {
   background-position: 0% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="1"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="1"] {
   background-position: 33.3333333333% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="2"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="2"] {
   background-position: 66.6666666667% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="3"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="3"] {
   background-position: 100% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="4"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="4"] {
   background-position: 0% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="5"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="5"] {
   background-position: 33.3333333333% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="6"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="6"] {
   background-position: 66.6666666667% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="7"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="7"] {
   background-position: 100% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="8"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="8"] {
   background-position: 0% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="9"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="9"] {
   background-position: 33.3333333333% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="10"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="10"] {
   background-position: 66.6666666667% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-cell="11"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-cell="11"] {
   background-position: 100% 100%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="0"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="0"] {
   top: 0%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="1"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="1"] {
   top: 0%;
   left: 25%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="2"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="2"] {
   top: 0%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="3"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="3"] {
   top: 0%;
   left: 75%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="4"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="4"] {
   top: 33.3333333333%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="5"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="5"] {
   top: 33.3333333333%;
   left: 25%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="6"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="6"] {
   top: 33.3333333333%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="7"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="7"] {
   top: 33.3333333333%;
   left: 75%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="8"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="8"] {
   top: 66.6666666667%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="9"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="9"] {
   top: 66.6666666667%;
   left: 25%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="10"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="10"] {
   top: 66.6666666667%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="1"] .puzzle-cell[data-pos="11"] {
+#puzzle-main[data-level="1"] .puzzle-cell[data-pos="11"] {
   top: 66.6666666667%;
   left: 75%;
 }
 
 /* line 49, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] #puzzle-wrapper {
+#puzzle-main[data-level="2"] #puzzle-wrapper {
   padding-top: 59.031979256698%;
 }
 /* line 52, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell {
+#puzzle-main[data-level="2"] .puzzle-cell {
   position: absolute;
   width: 20%;
   height: 33.3333333333%;
   background-size: 500%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="0"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="0"] {
   background-position: 0% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="1"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="1"] {
   background-position: 25% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="2"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="2"] {
   background-position: 50% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="3"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="3"] {
   background-position: 75% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="4"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="4"] {
   background-position: 100% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="5"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="5"] {
   background-position: 0% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="6"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="6"] {
   background-position: 25% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="7"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="7"] {
   background-position: 50% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="8"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="8"] {
   background-position: 75% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="9"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="9"] {
   background-position: 100% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="10"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="10"] {
   background-position: 0% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="11"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="11"] {
   background-position: 25% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="12"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="12"] {
   background-position: 50% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="13"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="13"] {
   background-position: 75% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-cell="14"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-cell="14"] {
   background-position: 100% 100%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="0"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="0"] {
   top: 0%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="1"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="1"] {
   top: 0%;
   left: 20%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="2"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="2"] {
   top: 0%;
   left: 40%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="3"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="3"] {
   top: 0%;
   left: 60%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="4"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="4"] {
   top: 0%;
   left: 80%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="5"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="5"] {
   top: 33.3333333333%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="6"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="6"] {
   top: 33.3333333333%;
   left: 20%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="7"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="7"] {
   top: 33.3333333333%;
   left: 40%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="8"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="8"] {
   top: 33.3333333333%;
   left: 60%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="9"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="9"] {
   top: 33.3333333333%;
   left: 80%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="10"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="10"] {
   top: 66.6666666667%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="11"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="11"] {
   top: 66.6666666667%;
   left: 20%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="12"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="12"] {
   top: 66.6666666667%;
   left: 40%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="13"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="13"] {
   top: 66.6666666667%;
   left: 60%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="2"] .puzzle-cell[data-pos="14"] {
+#puzzle-main[data-level="2"] .puzzle-cell[data-pos="14"] {
   top: 66.6666666667%;
   left: 80%;
 }
 
 /* line 49, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] #puzzle-wrapper {
+#puzzle-main[data-level="3"] #puzzle-wrapper {
   padding-top: 59.031979256698%;
 }
 /* line 52, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell {
+#puzzle-main[data-level="3"] .puzzle-cell {
   position: absolute;
   width: 16.6666666667%;
   height: 25%;
   background-size: 600%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="0"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="0"] {
   background-position: 0% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="1"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="1"] {
   background-position: 20% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="2"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="2"] {
   background-position: 40% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="3"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="3"] {
   background-position: 60% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="4"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="4"] {
   background-position: 80% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="5"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="5"] {
   background-position: 100% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="6"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="6"] {
   background-position: 0% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="7"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="7"] {
   background-position: 20% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="8"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="8"] {
   background-position: 40% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="9"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="9"] {
   background-position: 60% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="10"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="10"] {
   background-position: 80% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="11"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="11"] {
   background-position: 100% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="12"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="12"] {
   background-position: 0% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="13"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="13"] {
   background-position: 20% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="14"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="14"] {
   background-position: 40% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="15"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="15"] {
   background-position: 60% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="16"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="16"] {
   background-position: 80% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="17"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="17"] {
   background-position: 100% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="18"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="18"] {
   background-position: 0% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="19"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="19"] {
   background-position: 20% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="20"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="20"] {
   background-position: 40% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="21"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="21"] {
   background-position: 60% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="22"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="22"] {
   background-position: 80% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-cell="23"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-cell="23"] {
   background-position: 100% 100%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="0"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="0"] {
   top: 0%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="1"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="1"] {
   top: 0%;
   left: 16.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="2"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="2"] {
   top: 0%;
   left: 33.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="3"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="3"] {
   top: 0%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="4"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="4"] {
   top: 0%;
   left: 66.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="5"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="5"] {
   top: 0%;
   left: 83.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="6"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="6"] {
   top: 25%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="7"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="7"] {
   top: 25%;
   left: 16.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="8"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="8"] {
   top: 25%;
   left: 33.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="9"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="9"] {
   top: 25%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="10"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="10"] {
   top: 25%;
   left: 66.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="11"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="11"] {
   top: 25%;
   left: 83.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="12"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="12"] {
   top: 50%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="13"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="13"] {
   top: 50%;
   left: 16.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="14"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="14"] {
   top: 50%;
   left: 33.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="15"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="15"] {
   top: 50%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="16"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="16"] {
   top: 50%;
   left: 66.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="17"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="17"] {
   top: 50%;
   left: 83.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="18"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="18"] {
   top: 75%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="19"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="19"] {
   top: 75%;
   left: 16.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="20"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="20"] {
   top: 75%;
   left: 33.3333333333%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="21"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="21"] {
   top: 75%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="22"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="22"] {
   top: 75%;
   left: 66.6666666667%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="3"] .puzzle-cell[data-pos="23"] {
+#puzzle-main[data-level="3"] .puzzle-cell[data-pos="23"] {
   top: 75%;
   left: 83.3333333333%;
 }
 
 /* line 49, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] #puzzle-wrapper {
+#puzzle-main[data-level="4"] #puzzle-wrapper {
   padding-top: 59.031979256698%;
 }
 /* line 52, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell {
+#puzzle-main[data-level="4"] .puzzle-cell {
   position: absolute;
   width: 14.2857142857%;
   height: 25%;
   background-size: 700%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="0"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="0"] {
   background-position: 0% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="1"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="1"] {
   background-position: 16.6666666667% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="2"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="2"] {
   background-position: 33.3333333333% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="3"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="3"] {
   background-position: 50% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="4"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="4"] {
   background-position: 66.6666666667% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="5"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="5"] {
   background-position: 83.3333333333% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="6"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="6"] {
   background-position: 100% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="7"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="7"] {
   background-position: 0% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="8"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="8"] {
   background-position: 16.6666666667% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="9"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="9"] {
   background-position: 33.3333333333% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="10"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="10"] {
   background-position: 50% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="11"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="11"] {
   background-position: 66.6666666667% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="12"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="12"] {
   background-position: 83.3333333333% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="13"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="13"] {
   background-position: 100% 33.3333333333%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="14"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="14"] {
   background-position: 0% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="15"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="15"] {
   background-position: 16.6666666667% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="16"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="16"] {
   background-position: 33.3333333333% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="17"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="17"] {
   background-position: 50% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="18"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="18"] {
   background-position: 66.6666666667% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="19"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="19"] {
   background-position: 83.3333333333% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="20"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="20"] {
   background-position: 100% 66.6666666667%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="21"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="21"] {
   background-position: 0% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="22"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="22"] {
   background-position: 16.6666666667% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="23"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="23"] {
   background-position: 33.3333333333% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="24"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="24"] {
   background-position: 50% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="25"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="25"] {
   background-position: 66.6666666667% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="26"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="26"] {
   background-position: 83.3333333333% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-cell="27"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-cell="27"] {
   background-position: 100% 100%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="0"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="0"] {
   top: 0%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="1"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="1"] {
   top: 0%;
   left: 14.2857142857%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="2"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="2"] {
   top: 0%;
   left: 28.5714285714%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="3"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="3"] {
   top: 0%;
   left: 42.8571428571%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="4"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="4"] {
   top: 0%;
   left: 57.1428571429%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="5"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="5"] {
   top: 0%;
   left: 71.4285714286%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="6"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="6"] {
   top: 0%;
   left: 85.7142857143%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="7"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="7"] {
   top: 25%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="8"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="8"] {
   top: 25%;
   left: 14.2857142857%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="9"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="9"] {
   top: 25%;
   left: 28.5714285714%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="10"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="10"] {
   top: 25%;
   left: 42.8571428571%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="11"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="11"] {
   top: 25%;
   left: 57.1428571429%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="12"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="12"] {
   top: 25%;
   left: 71.4285714286%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="13"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="13"] {
   top: 25%;
   left: 85.7142857143%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="14"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="14"] {
   top: 50%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="15"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="15"] {
   top: 50%;
   left: 14.2857142857%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="16"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="16"] {
   top: 50%;
   left: 28.5714285714%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="17"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="17"] {
   top: 50%;
   left: 42.8571428571%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="18"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="18"] {
   top: 50%;
   left: 57.1428571429%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="19"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="19"] {
   top: 50%;
   left: 71.4285714286%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="20"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="20"] {
   top: 50%;
   left: 85.7142857143%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="21"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="21"] {
   top: 75%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="22"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="22"] {
   top: 75%;
   left: 14.2857142857%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="23"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="23"] {
   top: 75%;
   left: 28.5714285714%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="24"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="24"] {
   top: 75%;
   left: 42.8571428571%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="25"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="25"] {
   top: 75%;
   left: 57.1428571429%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="26"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="26"] {
   top: 75%;
   left: 71.4285714286%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="4"] .puzzle-cell[data-pos="27"] {
+#puzzle-main[data-level="4"] .puzzle-cell[data-pos="27"] {
   top: 75%;
   left: 85.7142857143%;
 }
 
 /* line 49, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] #puzzle-wrapper {
+#puzzle-main[data-level="5"] #puzzle-wrapper {
   padding-top: 59.031979256698%;
 }
 /* line 52, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell {
+#puzzle-main[data-level="5"] .puzzle-cell {
   position: absolute;
   width: 12.5%;
   height: 20%;
   background-size: 800%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="0"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="0"] {
   background-position: 0% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="1"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="1"] {
   background-position: 14.2857142857% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="2"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="2"] {
   background-position: 28.5714285714% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="3"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="3"] {
   background-position: 42.8571428571% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="4"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="4"] {
   background-position: 57.1428571429% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="5"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="5"] {
   background-position: 71.4285714286% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="6"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="6"] {
   background-position: 85.7142857143% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="7"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="7"] {
   background-position: 100% 0%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="8"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="8"] {
   background-position: 0% 25%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="9"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="9"] {
   background-position: 14.2857142857% 25%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="10"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="10"] {
   background-position: 28.5714285714% 25%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="11"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="11"] {
   background-position: 42.8571428571% 25%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="12"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="12"] {
   background-position: 57.1428571429% 25%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="13"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="13"] {
   background-position: 71.4285714286% 25%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="14"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="14"] {
   background-position: 85.7142857143% 25%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="15"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="15"] {
   background-position: 100% 25%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="16"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="16"] {
   background-position: 0% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="17"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="17"] {
   background-position: 14.2857142857% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="18"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="18"] {
   background-position: 28.5714285714% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="19"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="19"] {
   background-position: 42.8571428571% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="20"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="20"] {
   background-position: 57.1428571429% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="21"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="21"] {
   background-position: 71.4285714286% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="22"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="22"] {
   background-position: 85.7142857143% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="23"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="23"] {
   background-position: 100% 50%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="24"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="24"] {
   background-position: 0% 75%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="25"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="25"] {
   background-position: 14.2857142857% 75%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="26"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="26"] {
   background-position: 28.5714285714% 75%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="27"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="27"] {
   background-position: 42.8571428571% 75%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="28"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="28"] {
   background-position: 57.1428571429% 75%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="29"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="29"] {
   background-position: 71.4285714286% 75%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="30"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="30"] {
   background-position: 85.7142857143% 75%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="31"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="31"] {
   background-position: 100% 75%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="32"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="32"] {
   background-position: 0% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="33"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="33"] {
   background-position: 14.2857142857% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="34"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="34"] {
   background-position: 28.5714285714% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="35"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="35"] {
   background-position: 42.8571428571% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="36"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="36"] {
   background-position: 57.1428571429% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="37"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="37"] {
   background-position: 71.4285714286% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="38"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="38"] {
   background-position: 85.7142857143% 100%;
 }
 /* line 60, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-cell="39"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-cell="39"] {
   background-position: 100% 100%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="0"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="0"] {
   top: 0%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="1"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="1"] {
   top: 0%;
   left: 12.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="2"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="2"] {
   top: 0%;
   left: 25%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="3"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="3"] {
   top: 0%;
   left: 37.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="4"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="4"] {
   top: 0%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="5"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="5"] {
   top: 0%;
   left: 62.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="6"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="6"] {
   top: 0%;
   left: 75%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="7"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="7"] {
   top: 0%;
   left: 87.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="8"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="8"] {
   top: 20%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="9"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="9"] {
   top: 20%;
   left: 12.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="10"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="10"] {
   top: 20%;
   left: 25%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="11"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="11"] {
   top: 20%;
   left: 37.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="12"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="12"] {
   top: 20%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="13"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="13"] {
   top: 20%;
   left: 62.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="14"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="14"] {
   top: 20%;
   left: 75%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="15"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="15"] {
   top: 20%;
   left: 87.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="16"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="16"] {
   top: 40%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="17"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="17"] {
   top: 40%;
   left: 12.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="18"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="18"] {
   top: 40%;
   left: 25%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="19"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="19"] {
   top: 40%;
   left: 37.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="20"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="20"] {
   top: 40%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="21"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="21"] {
   top: 40%;
   left: 62.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="22"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="22"] {
   top: 40%;
   left: 75%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="23"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="23"] {
   top: 40%;
   left: 87.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="24"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="24"] {
   top: 60%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="25"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="25"] {
   top: 60%;
   left: 12.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="26"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="26"] {
   top: 60%;
   left: 25%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="27"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="27"] {
   top: 60%;
   left: 37.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="28"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="28"] {
   top: 60%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="29"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="29"] {
   top: 60%;
   left: 62.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="30"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="30"] {
   top: 60%;
   left: 75%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="31"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="31"] {
   top: 60%;
   left: 87.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="32"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="32"] {
   top: 80%;
   left: 0%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="33"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="33"] {
   top: 80%;
   left: 12.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="34"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="34"] {
   top: 80%;
   left: 25%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="35"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="35"] {
   top: 80%;
   left: 37.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="36"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="36"] {
   top: 80%;
   left: 50%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="37"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="37"] {
   top: 80%;
   left: 62.5%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="38"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="38"] {
   top: 80%;
   left: 75%;
 }
 /* line 67, ../sass/puzzle.scss */
-#puzzle-main[data-tier="5"] .puzzle-cell[data-pos="39"] {
+#puzzle-main[data-level="5"] .puzzle-cell[data-pos="39"] {
   top: 80%;
   left: 87.5%;
 }
@@ -25712,7 +25712,264 @@
     max-height: 600px;
   }
 }
-/* line 141, ../sass/puzzle.scss */
-#tier-select > li:not(.disabled) .tier-select-lock {
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="0"] li#level-select-0 .level-select-lock {
   display: none;
+}
+
+/* line 147, ../sass/puzzle.scss */
+#level-select[data-unlocked="0"] li#level-select-0 a {
+  color: #FF0;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="0"] li#level-select-1 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="0"] li#level-select-2 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="0"] li#level-select-3 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="0"] li#level-select-4 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="0"] li#level-select-5 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="1"] li#level-select-0 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="1"] li#level-select-1 .level-select-lock {
+  display: none;
+}
+
+/* line 147, ../sass/puzzle.scss */
+#level-select[data-unlocked="1"] li#level-select-1 a {
+  color: #FF0;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="1"] li#level-select-2 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="1"] li#level-select-3 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="1"] li#level-select-4 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="1"] li#level-select-5 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="2"] li#level-select-0 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="2"] li#level-select-1 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="2"] li#level-select-2 .level-select-lock {
+  display: none;
+}
+
+/* line 147, ../sass/puzzle.scss */
+#level-select[data-unlocked="2"] li#level-select-2 a {
+  color: #FF0;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="2"] li#level-select-3 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="2"] li#level-select-4 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="2"] li#level-select-5 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="3"] li#level-select-0 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="3"] li#level-select-1 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="3"] li#level-select-2 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="3"] li#level-select-3 .level-select-lock {
+  display: none;
+}
+
+/* line 147, ../sass/puzzle.scss */
+#level-select[data-unlocked="3"] li#level-select-3 a {
+  color: #FF0;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="3"] li#level-select-4 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="3"] li#level-select-5 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="4"] li#level-select-0 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="4"] li#level-select-1 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="4"] li#level-select-2 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="4"] li#level-select-3 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="4"] li#level-select-4 .level-select-lock {
+  display: none;
+}
+
+/* line 147, ../sass/puzzle.scss */
+#level-select[data-unlocked="4"] li#level-select-4 a {
+  color: #FF0;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="4"] li#level-select-5 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-0 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-1 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-2 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-3 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-4 .level-select-lock {
+  display: none;
+}
+
+/* line 143, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-5 .level-select-lock {
+  display: none;
+}
+
+/* line 147, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-5 a {
+  color: #FF0;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-6 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 151, ../sass/puzzle.scss */
+#level-select[data-unlocked="5"] li#level-select-5 a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 158, ../sass/puzzle.scss */
+.badge[data-level="1"] {
+  background-color: #099;
+}
+
+/* line 161, ../sass/puzzle.scss */
+.badge[data-level="2"] {
+  background-color: #0A4;
+}
+
+/* line 164, ../sass/puzzle.scss */
+.badge[data-level="3"] {
+  background-color: #5A0;
+}
+
+/* line 167, ../sass/puzzle.scss */
+.badge[data-level="4"] {
+  background-color: #A60;
+}
+
+/* line 170, ../sass/puzzle.scss */
+.badge[data-level="5"] {
+  background-color: #B00;
 }
