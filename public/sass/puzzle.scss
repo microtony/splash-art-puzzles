@@ -29,8 +29,10 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
   //box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 192, 0.4);
   cursor: pointer;
 }
-#puzzle-main:not(.puzzle-finished) .puzzle-cell.movable:hover {
-  filter: brightness(150%) contrast(80%);
+@media (min-width: 720px) {
+  #puzzle-main:not(.puzzle-finished) .puzzle-cell.movable:hover {
+    filter: brightness(150%) contrast(80%);
+  }
 }
 #hint-wrapper {
   max-width: 400px;
