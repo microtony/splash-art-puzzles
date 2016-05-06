@@ -23,22 +23,26 @@
         <a class="navbar-brand" id="navbar-brand" href="./index.htm">Splash Art Puzzles</a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse" data-unlocked="0">
+        <ul class="nav navbar-nav navbar-right">
+          <li id="user-guest">
+            <a href="#" role="button" data-toggle="modal" data-target="#user-connect" id="unlock-button">Unlock Levels</a>
+          </li>
+          <li class="dropdown" id="user-connected" style="display: none">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="user-username">Username</span> <span class="caret"></span></a>
+          </li>
+        </ul>
         <ul class="nav navbar-nav">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="champion-selected">Champion</span> <span class="caret"></span></a>
             <ul class="dropdown-menu" id="champion-select">
             </ul>
           </li>
-        </ul>
-        <ul class="nav navbar-nav">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" id="skin-select-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="skin-selected">Skin</span> <span class="caret"></span></a>
             <ul class="dropdown-menu" id="skin-select">
               <li class="disabled"><a href="#">Select champion first</a></li>
             </ul>
           </li>
-        </ul>
-        <ul class="nav navbar-nav">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" id="level-select-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="level-selected">Level 0</span> <span class="caret"></span></a>
             <ul class="dropdown-menu" id="level-select">
@@ -75,6 +79,44 @@
       </div>
       <div class="col-sm-7 col-sm-pull-5 text-center"><div id="hint-wrapper"><div id="hint"></div></div></div>
       <div class="col-xs-12 visible-xs-block legal">Splash Art Puzzles isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</div>
+    </div>
+    <div class="modal fade" id="user-connect" tabindex="-1" role="dialog" aria-labelledby="unlock-header">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a type="button" class="close2 btn btn-primary pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+            <h4 class="modal-title" id="unlock-header">Unlock with your Champion Mastery Levels</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-inline">
+              <p>Add&nbsp;&nbsp;<code id="unlock-code" style="font-weight: bold; font-size: 100%"></code>&nbsp;&nbsp;to any of your mastery pages.</p>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Region:</label>
+                <select class="form-control" name="region">
+                  <option>BR</option>
+                  <option>EUNE</option>
+                  <option>EUW</option>
+                  <option>JP</option>
+                  <option>KR</option>
+                  <option>LAN</option>
+                  <option>LAS</option>
+                  <option>NA</option>
+                  <option>OCE</option>
+                  <option>RU</option>
+                  <option>TR</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Summoner Name:</label>
+                <input class="form-control" name="name"></input>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Verify</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 

@@ -17,22 +17,31 @@ $(function() {
     },
     updateLevels: function(cb) {
       $.get('/user', function(user) {
-        GameUI.user = user;
-        for (var champ in Champions) {
-          var level = user[champ];
-          if (!level) {
-            $('#champion-select a[data-champion="' + champ + '"] span').hide();
-          } else {
-            $('#champion-select a[data-champion="' + champ + '"] span')
-              .show().text(user[champ]).attr('data-level', user[champ]);
-          }
-        }
-        GameUI.unlockedLevel = GameUI.user[GameUI.champion] || 0;
-        $('#navbar-collapse').attr('data-unlocked', GameUI.unlockedLevel);
-        if (cb) {
-          cb();
-        }
+        GameUI.finishUpdateUser(user, cb);
       });
+    },
+    finishUpdateUser: function(user, cb) {
+      GameUI.user = user;
+      var levels = user.levels;
+      for (var champ in Champions) {
+        var level = levels[champ];
+        if (!level) {
+          $('#champion-select a[data-champion="' + champ + '"] span').hide();
+        } else {
+          $('#champion-select a[data-champion="' + champ + '"] span')
+            .show().text(levels[champ]).attr('data-level', levels[champ]);
+        }
+      }
+      GameUI.unlockedLevel = GameUI.user.levels[GameUI.champion] || 0;
+      $('#navbar-collapse').attr('data-unlocked', GameUI.unlockedLevel);
+      if (user.connected) {
+
+      } else {
+        $('#unlock-code').text(user.unlockCode);
+      }
+      if (cb) {
+        cb();
+      }
     },
     randomSkin: function() {
       var keys = Object.keys(Champions);
@@ -42,7 +51,7 @@ $(function() {
       selectChampion(champ);
       var unlockedSkins = [];
       for (var i in Champions[champ].skins) {
-        if (Champions[champ].skins[i][2] <= (GameUI.user[champ] || 0)) {
+        if (Champions[champ].skins[i][2] <= (GameUI.user.levels[champ] || 0)) {
           unlockedSkins.push(i);
         }
       }
@@ -71,7 +80,7 @@ $(function() {
     $('#skin-select').empty();
     var champion = Champions[champ];
     selectSkin(champ, 0);
-    GameUI.unlockedLevel = GameUI.user[champ] || 0;
+    GameUI.unlockedLevel = GameUI.user.levels[champ] || 0;
     $('#navbar-collapse').attr('data-unlocked', GameUI.unlockedLevel);
     selectLevel(GameUI.unlockedLevel);
     for (var i in champion.skins) {
@@ -142,5 +151,12 @@ $(function() {
     e.preventDefault();
     e.stopPropagation();
     GameUI.randomSkin();
+  });
+  $('#unlock-button').click(function() {
+    if (!GameUI.user.unlockCode) {
+      $.post('/init', {}, function(user) {
+        GameUI.finishUpdateUser(user)
+      });
+    }
   });
 });

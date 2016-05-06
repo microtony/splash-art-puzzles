@@ -113,10 +113,7 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
 }
 @media (max-width: 479px) {
   #champion-select {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-    max-height: 320px;
+    max-height: 300px;
   }
 }
 @media (min-width: 480px) and (max-width: 719px) {
@@ -206,4 +203,17 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
   font-size: 13px;
   margin: 20px 0 15px 0;
   color: #999;
+}
+
+#user-guest a {
+  color: rgb(0, 204, 178);
+}
+
+#user-guest:hover a , #user-guest:active a, #user-guest:focus a {
+  color: rgb(0, 230, 200);
+}
+
+.close2 {
+  margin: -4px;
+  padding: 6px 12px;
 }

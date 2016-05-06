@@ -7,25 +7,27 @@ var champions = require('./champions');
 
 router.get('/user', function(req, res, next) {
   if (!req.session.user) {
-    return res.send({});
+    return res.send(User.getEmptyObject());
   }
   User.findById(req.session.user).exec(function(err, user) {
     if (err || !user) {
       req.session.user = null;
-      return res.send({});
+      return res.send(User.getEmptyObject());
     }
-    var levels = {};
-    for (var i in user.manual) {
-      var champ = user.manual[i].champion;
-      levels[champ] = user.manual[i].level;
+    res.send(user.getCompactObject());
+  });
+});
+
+router.post('/init', function(req, res, next) {
+  User.findById(req.session.user).exec(function(err, user) {
+    if (user) {
+      return res.send(user.getCompactObject());
     }
-    for (var i in user.account) {
-      var champ = user.account[i].champion;
-      if (!levels.hasOwnProperty(champ) || user.account[i].level > levels[champ]) {
-        levels[champ] = user.account[i].level;
-      }
-    }
-    res.send(levels);
+    user = new User();
+    user.save(function(err) {
+      req.session.user = user.id;
+      res.send(user.getCompactObject());
+    });
   });
 });
 
