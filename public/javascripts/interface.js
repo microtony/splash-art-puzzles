@@ -156,9 +156,12 @@ $(function() {
     $('#champion-select').append(s);
   }
   $('#champion-select a').click(function(e) {
-    e.stopPropagation();
-    selectChampion($(this).attr('data-champion'));
-    $('#skin-select-toggle').dropdown('toggle');
+    var champ = $(this).attr('data-champion');
+    selectChampion(champ);
+    if (GameUI.user.levels[champ]) {
+      e.stopPropagation();
+      $('#skin-select-toggle').dropdown('toggle');
+    }
   });
   GameUI.updateLevels(GameUI.randomSkin);
   $('#champion-select').mousewheel(function(event, delta) {
@@ -179,6 +182,7 @@ $(function() {
   });
   $('#unlock-form').submit(function(e) {
     e.preventDefault();
+    $('#unlock-error').text('Please wait...');
     $.post('/verify', {
       region : $('#unlock-region').val(),
       name : $('#unlock-name').val()
