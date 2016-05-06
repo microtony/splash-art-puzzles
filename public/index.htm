@@ -23,14 +23,14 @@
         <a class="navbar-brand" id="navbar-brand" href="./index.htm">Splash Art Puzzles</a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse" data-unlocked="0">
-        <ul class="nav navbar-nav navbar-right">
-          <li id="user-guest">
+        <ul class="nav navbar-nav navbar-right" id="user-guest">
+          <li>
             <a href="#" role="button" data-toggle="modal" data-target="#user-connect" id="unlock-button">Unlock Levels</a>
           </li>
           <li class="dropdown" id="user-connected" style="display: none">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="user-username">Username</span> <span class="caret"></span></a>
           </li>
         </ul>
+        <p class="navbar-text navbar-right" id="user-username" style="display: none">Username</p>
         <ul class="nav navbar-nav">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="champion-selected">Champion</span> <span class="caret"></span></a>
@@ -73,12 +73,17 @@
           <div class="col-xs-6 game-stat" id="game-time">0:00</div>
           <div class="col-sm-6 game-stat-note hidden-xs">MOVES</div>
           <div class="col-sm-6 game-stat-note hidden-xs">TIME</div>
-          <div class="col-sm-12 hidden-xs legal">Splash Art Puzzles isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</div>
+          <div class="col-sm-12 hidden-xs how-to-play"><p>HOW TO PLAY: Solve a puzzle at the highest level to unlock the next level and skins for the same champion. Levels and skins can also be unlocked with your Champion Mastery levels by verifying your League of Legends account.</p>
+          <p>Brought to you by <a href="http://www.microtony.com" target="_blank">microtony</a>.</div>
         </div>
 
       </div>
       <div class="col-sm-7 col-sm-pull-5 text-center"><div id="hint-wrapper"><div id="hint"></div></div></div>
-      <div class="col-xs-12 visible-xs-block legal">Splash Art Puzzles isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</div>
+      <div class="col-xs-12 visible-xs-block how-to-play"><p>HOW TO PLAY: Solve a puzzle at the highest level to unlock the next level and skins for the same champion. Levels and skins can also be unlocked with your Champion Mastery levels by verifying your League of Legends account.</p>
+          <p>Brought to you by <a href="http://www.microtony.com" target="_blank">microtony</a>.</div>
+    </div>
+    <div class="row">
+      <div class="legal col-sm-12">Splash Art Puzzles isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.</div>
     </div>
     <div class="modal fade" id="user-connect" tabindex="-1" role="dialog" aria-labelledby="unlock-header">
       <div class="modal-dialog" role="document">

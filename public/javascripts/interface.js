@@ -36,7 +36,7 @@ $(function() {
       $('#navbar-collapse').attr('data-unlocked', GameUI.unlockedLevel);
       if (user.connected) {
         $('#user-username').text(user.username);
-        $('#user-connected').show();
+        $('#user-username').show();
         $('#user-guest').hide();
       } else {
         $('#unlock-code').text(user.unlockCode);

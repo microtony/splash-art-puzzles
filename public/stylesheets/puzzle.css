@@ -22017,27 +22017,32 @@
 /* line 204, ../sass/puzzle.scss */
 .legal {
   font-size: 13px;
-  margin: 20px 0 15px 0;
+  margin: 10px 0 20px 0;
   color: #999;
 }
 
 /* line 210, ../sass/puzzle.scss */
+.how-to-play {
+  margin-top: 15px;
+}
+
+/* line 214, ../sass/puzzle.scss */
 #user-guest a {
   color: #00ccb2;
 }
 
-/* line 214, ../sass/puzzle.scss */
+/* line 218, ../sass/puzzle.scss */
 #user-guest:hover a, #user-guest:active a, #user-guest:focus a {
   color: #00e6c8;
 }
 
-/* line 218, ../sass/puzzle.scss */
+/* line 222, ../sass/puzzle.scss */
 .close2 {
   margin: -4px;
   padding: 6px 12px;
 }
 
-/* line 223, ../sass/puzzle.scss */
+/* line 227, ../sass/puzzle.scss */
 #unlock-error {
   color: #FF6666;
   margin-right: 30px;
