@@ -65,7 +65,7 @@ $(function() {
       $('#game-moves').text(Game.moves);
       var diff = (new Date()) - Game.startTime;
       var minutes = Math.floor(diff / 60000);
-      var colon = diff % 1000 < 500 ? ':' : ' ';
+      var colon = (Game.finished || diff % 1000 < 500) ? ':' : ' ';
       var seconds = Math.floor(diff % 60000 / 1000);
       if (seconds < 10) seconds = '0' + seconds;
       $('#game-time').text(minutes + colon + seconds);

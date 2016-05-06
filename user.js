@@ -2,6 +2,9 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var crypto = require('crypto');
 var secret = process.env.UNLOCK_SECRET || 'microtony';
+var https = require('https');
+var Champions = require('./champions');
+
 var userSchema = new Schema({
   connected: { type: Boolean, default: false },
   region: String,
@@ -45,6 +48,36 @@ userSchema.methods.getCompactObject = function() {
       levels: levels
     };
   }
+}
+userSchema.methods.updateAccount = function() {
+  var urlPrefix = 'https://' + this.region.toLowerCase() + '.api.pvp.net/championmastery/location/' + this.region + '1/player/';
+  var urlSuffix = '?api_key=' + process.env.API_KEY;
+  var keyToId = {};
+  for (var i in Champions) {
+    keyToId[Champions[i].key] = i;
+  }
+  var that = this;
+  https.get(urlPrefix + this.playerId + '/champions' + urlSuffix, function(res1) {
+    if (res1.statusCode != 200) {
+      console.log(res1);
+      return ;
+    }
+    var body = '';
+    res1.on('data', function(chunk) {
+      body += chunk;
+    });
+    res1.on('end', function() {
+      var champions = JSON.parse(body);
+      that.account = [];
+      for (var i in champions) {
+        that.account.push({
+          'champion' : keyToId[champions[i].championId],
+          'level' : champions[i].championLevel
+        });
+      }
+      that.save();
+    });
+  });
 }
 userSchema.statics.getByRegionAndId = function(region, id, cb) {
   this.where('region', region).where('playerId', id).exec(function(err, u) {

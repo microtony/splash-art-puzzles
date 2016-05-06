@@ -28,6 +28,7 @@ foreach ($champions["data"] as $champion) {
   echo $championid . "\n";
   $championdata[$championid] = [
     "id" => $championid,
+    "key" => 0 + $details["data"][$championid]["key"],
     "name" => $details["data"][$championid]["name"],
     "skins" => $skinnames,
     "icon" => "$cdn/$version/img/champion/" . $championid . '.png'];

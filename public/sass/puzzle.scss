@@ -77,10 +77,12 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
 
 @import "skins";
 
+#puzzle-main > div {
+  background-color: #131313;
+}
+
 @each $skin, $url in $skins {
-  #puzzle-main[data-skin="#{$skin}"] > div {
-    background-color: #131313;
-  }
+
   #puzzle-main[data-skin="#{$skin}"] > div::after {
     background-image: url($url);
     background-size: cover;

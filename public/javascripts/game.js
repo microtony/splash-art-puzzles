@@ -141,6 +141,7 @@ $(function() {
         Game.timer = setInterval(GameUI.updateMoves, 50);
       }
       Game.moveBlank();
+      GameUI.updateMoves();
     },
     checkFinish: function() {
       if (Game.finished) {

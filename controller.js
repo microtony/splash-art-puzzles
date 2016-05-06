@@ -97,6 +97,7 @@ router.post('/verify', function(req, res, next) {
           user.name = name;
           user.playerId = id;
           user.save();
+          user.updateAccount();
         } else {
           // merge levels from session user to acuser
           var manual = {};
@@ -112,9 +113,12 @@ router.post('/verify', function(req, res, next) {
             acUser.manual.push({ 'champion' : i, 'level' : manual[i] });
           }
           acUser.save();
+          acUser.updateAccount();
           req.session.user = acUser.id;
         }
-        return res.send({ 'success' : true });
+        setTimeout(function() {
+          res.send({ 'success' : true });
+        }, 500);
       });
     }
 
