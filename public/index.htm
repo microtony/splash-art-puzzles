@@ -14,15 +14,15 @@
   <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="./index.htm">Splash Art Puzzles</a>
+        <a class="navbar-brand" id="navbar-brand" href="./index.htm">Splash Art Puzzles</a>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="navbar-collapse" data-unlocked="0">
         <ul class="nav navbar-nav">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="champion-selected">Champion</span> <span class="caret"></span></a>
@@ -41,13 +41,13 @@
         <ul class="nav navbar-nav">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" id="level-select-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="level-selected">Level 0</span> <span class="caret"></span></a>
-            <ul class="dropdown-menu" id="level-select" data-unlocked="0">
-              <li id="level-select-0"><a href="#">Level 0 (3x2) <span class="level-select-lock">🔒</span></a></li>
-              <li id="level-select-1"><a href="#">Level 1 (4x3) <span class="level-select-lock">🔒</span></a></li>
-              <li id="level-select-2"><a href="#">Level 2 (5x3) <span class="level-select-lock">🔒</span></a></li>
-              <li id="level-select-3"><a href="#">Level 3 (6x4) <span class="level-select-lock">🔒</span></a></li>
-              <li id="level-select-4"><a href="#">Level 4 (7x4) <span class="level-select-lock">🔒</span></a></li>
-              <li id="level-select-5"><a href="#">Level 5 (8x5) <span class="level-select-lock">🔒</span></a></li>
+            <ul class="dropdown-menu" id="level-select">
+              <li id="level-select-0" data-level="0"><a href="#">Level 0 (3x2) <span class="level-lock">🔒</span></a></li>
+              <li id="level-select-1" data-level="1"><a href="#">Level 1 (4x3) <span class="level-lock">🔒</span></a></li>
+              <li id="level-select-2" data-level="2"><a href="#">Level 2 (5x3) <span class="level-lock">🔒</span></a></li>
+              <li id="level-select-3" data-level="3"><a href="#">Level 3 (6x4) <span class="level-lock">🔒</span></a></li>
+              <li id="level-select-4" data-level="4"><a href="#">Level 4 (7x4) <span class="level-lock">🔒</span></a></li>
+              <li id="level-select-5" data-level="5"><a href="#">Level 5 (8x5) <span class="level-lock">🔒</span></a></li>
             </ul>
           </li>
         </ul>

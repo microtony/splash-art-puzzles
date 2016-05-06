@@ -142,15 +142,15 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
 
 @for $i from 0 through 5 {
   @for $j from 0 through $i {
-    #level-select[data-unlocked="#{$i}"] li#level-select-#{$j} .level-select-lock {
+    #navbar-collapse[data-unlocked="#{$i}"] li[data-level="#{$j}"] .level-lock {
       display: none;
     }
   }
-  #level-select[data-unlocked="#{$i}"] li#level-select-#{$i} a {
+  #navbar-collapse[data-unlocked="#{$i}"] #level-select li[data-level="#{$i}"] a {
     color: #FF0;
   }
   @for $j from $i + 1 through 5 {
-    #level-select[data-unlocked="#{$i}"] li#level-select-#{$j} a {
+    #navbar-collapse[data-unlocked="#{$i}"] li[data-level="#{$j}"] a {
       color: #999;
       cursor: not-allowed;
     }

@@ -11,10 +11,11 @@ $(function() {
         champion: GameUI.champion,
         level: Game.level
       }, function(res) {
-        alert(res);
+        GameUI.updateLevels();
+        selectLevel(res.unlock || 0);
       })
     },
-    updateLevels: function() {
+    updateLevels: function(cb) {
       $.get('/user', function(user) {
         GameUI.user = user;
         for (var champ in Champions) {
@@ -26,7 +27,28 @@ $(function() {
               .show().text(user[champ]).attr('data-level', user[champ]);
           }
         }
+        GameUI.unlockedLevel = GameUI.user[GameUI.champion] || 0;
+        $('#navbar-collapse').attr('data-unlocked', GameUI.unlockedLevel);
+        if (cb) {
+          cb();
+        }
       });
+    },
+    randomSkin: function() {
+      var keys = Object.keys(Champions);
+      var len = keys.length;
+      var id = Math.floor(Math.random() * len);
+      var champ = keys[id];
+      selectChampion(champ);
+      var unlockedSkins = [];
+      for (var i in Champions[champ].skins) {
+        if (Champions[champ].skins[i][2] <= (GameUI.user[champ] || 0)) {
+          unlockedSkins.push(i);
+        }
+      }
+      var len = unlockedSkins.length;
+      selectSkin(champ, unlockedSkins[Math.floor(Math.random() * len)]);
+      selectLevel(0);
     }
   };
 
@@ -37,17 +59,25 @@ $(function() {
     var champion = Champions[champ];
     selectSkin(champ, 0);
     GameUI.unlockedLevel = GameUI.user[champ] || 0;
-    $('#level-select').attr('data-unlocked', GameUI.unlockedLevel);
+    $('#navbar-collapse').attr('data-unlocked', GameUI.unlockedLevel);
     selectLevel(GameUI.unlockedLevel);
     for (var i in champion.skins) {
-      var s = '<li><a href="#" data-champion="' + champ + '" data-skin="' + i + '">';
+      var s = '<li data-level="' + champion.skins[i][2] + '"">';
+      s += '<a href="#" data-champion="' + champ + '" data-skin="' + i + '">';
       s += champion.skins[i][1] == 'default' ? 'Default Skin' : champion.skins[i][1];
+      s += ' <span class="level-lock">🔒 ' + champion.skins[i][2] + ' </span>';
       s += '</a></li>';
       $('#skin-select').append(s);
     };
     $('#skin-select a').click(function(e) {
       var skin = $(this);
-      selectSkin(skin.attr('data-champion'), parseInt(skin.attr('data-skin')));
+      var champ = skin.attr('data-champion');
+      var skinid = parseInt(skin.attr('data-skin'));
+      if (GameUI.unlockedLevel < Champions[champ].skins[skinid][2]) {
+        e.stopPropagation();
+        return ;
+      }
+      selectSkin(champ, skinid);
     });
   }
   var selectSkin = function(champ, num) {
@@ -89,21 +119,14 @@ $(function() {
     selectChampion($(this).attr('data-champion'));
     $('#skin-select-toggle').dropdown('toggle');
   });
-  (function() {
-    var keys = Object.keys(Champions);
-    var len = keys.length;
-    var id = Math.floor(Math.random() * len);
-    var champ = keys[id];
-    selectChampion(champ);
-    len = Champions[champ].skins.length;
-    selectSkin(champ, Math.floor(Math.random() * len));
-    selectLevel(0);
-  })();
+  GameUI.updateLevels(GameUI.randomSkin);
   $('#champion-select').mousewheel(function(event, delta) {
     this.scrollLeft -= (delta * 30);
     event.preventDefault();
   });
-
-  GameUI.updateLevels();
-  
+  $('#navbar-brand').click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    GameUI.randomSkin();
+  });
 });
