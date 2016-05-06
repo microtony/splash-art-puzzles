@@ -12,6 +12,9 @@ $(function() {
     blanke: 0,
     blanks: 0,
     blankw: 0,
+    moves: 0,
+    startTime: 0,
+    timer: false,
     finished: false,
     puzzle: [],
     init: function() {
@@ -34,6 +37,12 @@ $(function() {
       this.finished = false;
       $('#puzzle-main').removeClass('puzzle-finished');
       this.shuffle();
+      this.moves = 0;
+      if (this.timer) {
+        clearInterval(this.timer);
+        this.timer = false;
+        GameUI.clearMoves(0);
+      }
     },
     shuffle: function() {
       while (true) {
@@ -77,6 +86,8 @@ $(function() {
     moveBlank: function() {
       if (Game.checkFinish()) {
         Game.finished = true;
+        clearInterval(Game.timer);
+        Game.timer = false;
         GameUI.finishCb();
         return ;
       }
@@ -110,14 +121,24 @@ $(function() {
     cellClick: function() {
       var cell = $(this);
       var pos = parseInt(cell.attr('data-pos'));
+      var moved = false;
       for (var i = 0; i < 4; i++) {
         if (pos == Game[Game.directions[i]]) {
           cell.attr('data-pos', Game.blank);
           Game.puzzle[Game.blank] = Game.puzzle[pos];
           Game.puzzle[pos] = -1;
           Game.blank = pos;
+          moved = true;
           break;
         }
+      }
+      if (!moved) {
+        return ;
+      }
+      Game.moves++;
+      if (Game.moves == 1) {
+        Game.startTime = new Date();
+        Game.timer = setInterval(GameUI.updateMoves, 50);
       }
       Game.moveBlank();
     },

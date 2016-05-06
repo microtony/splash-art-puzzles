@@ -49,6 +49,19 @@ $(function() {
       var len = unlockedSkins.length;
       selectSkin(champ, unlockedSkins[Math.floor(Math.random() * len)]);
       selectLevel(0);
+    },
+    updateMoves: function() {
+      $('#game-moves').text(Game.moves);
+      var diff = (new Date()) - Game.startTime;
+      var minutes = Math.floor(diff / 60000);
+      var colon = diff % 1000 < 500 ? ':' : ' ';
+      var seconds = Math.floor(diff % 60000 / 1000);
+      if (seconds < 10) seconds = '0' + seconds;
+      $('#game-time').text(minutes + colon + seconds);
+    },
+    clearMoves: function() {
+      $('#game-moves').text('0');
+      $('#game-time').text('0:00');
     }
   };
 
@@ -78,6 +91,7 @@ $(function() {
         return ;
       }
       selectSkin(champ, skinid);
+      $(".navbar-toggle:not(.collapsed)").trigger("click");
     });
   }
   var selectSkin = function(champ, num) {
