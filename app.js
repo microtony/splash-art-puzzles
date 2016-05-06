@@ -27,8 +27,8 @@ mongoose.connection.on("error", function(err){
   console.log(err); 
 });
 
-const session = require('express-session');
-const MongoStore = require('connect-mongo')(session);
+var session = require('express-session');
+var MongoStore = require('connect-mongo/es5')(session);
 
 app.use(session({
   secret: process.env.SAP_SECRET || 'sap-microtony',
@@ -38,7 +38,7 @@ app.use(session({
     mongooseConnection: mongoose.connection,
     autoRemove: 'disabled'
   }),
-  cookie: { maxAge: 86400 * 365 * 10 }
+  cookie: { maxAge: 86400000 * 365 * 10 }
 }));
 
 app.use('/', controller);
