@@ -4,6 +4,7 @@ var User = require('./user');
 var mongoose = require('mongoose');
 var ObjectId = mongoose.Types.ObjectId;
 var champions = require('./champions');
+var https = require('https');
 
 router.get('/user', function(req, res, next) {
   if (!req.session.user) {
@@ -78,6 +79,91 @@ router.post('/save', function(req, res, next) {
       unlockLevel(user);
     }
   });
+});
+
+router.post('/verify', function(req, res, next) {
+  User.findById(req.session.user).exec(function(err, user) {
+    if (err || !user || user.connected) {
+      return res.status(500).send({ 'error' : 'unknown error' });
+    }
+    var code = user.getUnlockCode();
+
+    var success = function(region, name, id) {
+      User.findOne({ 'region': region, 'playerId': id }).exec(function(err, acUser) {
+        if (!acUser) {
+          // simply change current user's region and playerId
+          user.connected = true;
+          user.region = region;
+          user.name = name;
+          user.playerId = id;
+          user.save();
+        } else {
+          // merge levels from session user to acuser
+          var manual = {};
+          for (var i in user.manual) {
+            manual[user.manual[i].champion] = user.manual[i].level;
+          }
+          for (var i in acUser.manual) {
+            var oldLevel = manual[acUser.manual[i].champion] || 0;
+            manual[acUser.manual[i].champion] = Math.max(oldLevel, acUser.manual[i].level);
+          }
+          acUser.manual = [];
+          for (var i in manual) {
+            acUser.manual.push({ 'champion' : i, 'level' : manual[i] });
+          }
+          acUser.save();
+          req.session.user = acUser.id;
+        }
+        return res.send({ 'success' : true });
+      });
+    }
+
+    var fail = function() {
+      return res.send({ 'success' : false, 'error' : 'Code not found in mastery pages' });
+    }
+
+    var region = req.body.region;
+    if (['BR', 'EUNE', 'EUW', 'JP', 'KR', 'LAN', 'LAS', 'NA', 'OCE', 'RU', 'TR'].indexOf(region) == -1) {
+      return res.status(500).send({ 'error' : 'invalid region' }); 
+    }
+    var name = req.body.name;
+    var urlPrefix = 'https://' + region.toLowerCase() + '.api.pvp.net/api/lol/' + region.toLowerCase() + '/v1.4/summoner/';
+    var urlSuffix = '?api_key=' + process.env.API_KEY;
+    https.get(urlPrefix + 'by-name/' + name + urlSuffix, function(res1) {
+      if (res1.statusCode != 200) {
+        return res.send({ 'success' : false, 'error' : 'Summoner not found' });
+      }
+      var body = '';
+      res1.on('data', function(chunk) {
+        body += chunk;
+      });
+      res1.on('end', function() {
+        var user = JSON.parse(body);
+        var name = Object.keys(user)[0];
+        var id = user[name].id;
+        https.get(urlPrefix + id + '/masteries' + urlSuffix, function(res2) {
+          var body2 = '';
+          res2.on('data', function(chunk) {
+            body2 += chunk;
+          });
+          res2.on('end', function() {
+            var masteries = JSON.parse(body2);
+            var pages = masteries[id]['pages'];
+            for (var i in pages) {
+              if (pages[i].name.indexOf(code) != -1) {
+                return success(region, name, id);
+              }
+            }
+            return fail();
+          });
+        });
+      });
+    }).on('error', function() {
+      return res.status(500).send({ 'error' : 'unknown error' });
+    });
+
+  });
+
 });
 
 module.exports = router;

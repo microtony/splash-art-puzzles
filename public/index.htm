@@ -85,14 +85,14 @@
         <div class="modal-content">
           <div class="modal-header">
             <a type="button" class="close2 btn btn-primary pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
-            <h4 class="modal-title" id="unlock-header">Unlock with your Champion Mastery Levels</h4>
+            <h4 class="modal-title" id="unlock-header">Unlock with your Champion Mastery levels</h4>
           </div>
           <div class="modal-body">
-            <form class="form-inline">
-              <p>Add&nbsp;&nbsp;<code id="unlock-code" style="font-weight: bold; font-size: 100%"></code>&nbsp;&nbsp;to any of your mastery pages.</p>
+            <form class="form-inline" id="unlock-form">
+              <p>Add&nbsp;&nbsp;<code id="unlock-code" style="font-weight: bold; font-size: 100%"></code>&nbsp;&nbsp;into the name of any mastery page.</p>
               <div class="form-group">
                 <label for="recipient-name" class="control-label">Region:</label>
-                <select class="form-control" name="region">
+                <select class="form-control" id="unlock-region">
                   <option>BR</option>
                   <option>EUNE</option>
                   <option>EUW</option>
@@ -108,12 +108,13 @@
               </div>
               <div class="form-group">
                 <label for="message-text" class="control-label">Summoner Name:</label>
-                <input class="form-control" name="name"></input>
+                <input class="form-control" id="unlock-name"></input>
               </div>
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-success">Verify</button>
+            <span id="unlock-error"></span>
+            <button id="unlock-submit" class="btn btn-success">Verify</button>
           </div>
         </div>
       </div>

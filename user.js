@@ -16,10 +16,8 @@ userSchema.index({ region: 1, playerId: 1 });
 userSchema.methods.getUnlockCode = function() {
   var hash = crypto.createHmac('sha256', secret)
                    .update(this.id)
-                   .digest('hex');
-  console.log(hash);                   
+                   .digest('hex');    
   var code = parseInt("0x" + hash.substr(0, 7)) % 900000 + 100000;
-  console.log(code);
   return code;
 }
 userSchema.methods.getCompactObject = function() {

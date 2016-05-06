@@ -35,7 +35,9 @@ $(function() {
       GameUI.unlockedLevel = GameUI.user.levels[GameUI.champion] || 0;
       $('#navbar-collapse').attr('data-unlocked', GameUI.unlockedLevel);
       if (user.connected) {
-
+        $('#user-username').text(user.username);
+        $('#user-connected').show();
+        $('#user-guest').hide();
       } else {
         $('#unlock-code').text(user.unlockCode);
       }
@@ -158,5 +160,21 @@ $(function() {
         GameUI.finishUpdateUser(user)
       });
     }
+  });
+  $('#unlock-form').submit(function(e) {
+    e.preventDefault();
+    $.post('/verify', {
+      region : $('#unlock-region').val(),
+      name : $('#unlock-name').val()
+    }, function(res) {
+      if (res.success) {
+        location.reload();
+      } else {
+        $('#unlock-error').text(res.error);
+      }
+    });
+  });
+  $('#unlock-submit').click(function() {
+    $('#unlock-form').submit();
   });
 });

@@ -26026,3 +26026,9 @@
   margin: -4px;
   padding: 6px 12px;
 }
+
+/* line 221, ../sass/puzzle.scss */
+#unlock-error {
+  color: #FF6666;
+  margin-right: 30px;
+}
