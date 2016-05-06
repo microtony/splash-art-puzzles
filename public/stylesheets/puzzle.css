@@ -1247,6 +1247,975 @@
   left: 87.5%;
 }
 
+/* line 51, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] #puzzle-wrapper {
+  padding-top: 59.031979256698%;
+}
+/* line 54, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell {
+  position: absolute;
+  width: 11.1111111111%;
+  height: 20%;
+  background-size: 900%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="0"] {
+  background-position: 0% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="1"] {
+  background-position: 12.5% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="2"] {
+  background-position: 25% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="3"] {
+  background-position: 37.5% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="4"] {
+  background-position: 50% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="5"] {
+  background-position: 62.5% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="6"] {
+  background-position: 75% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="7"] {
+  background-position: 87.5% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="8"] {
+  background-position: 100% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="9"] {
+  background-position: 0% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="10"] {
+  background-position: 12.5% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="11"] {
+  background-position: 25% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="12"] {
+  background-position: 37.5% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="13"] {
+  background-position: 50% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="14"] {
+  background-position: 62.5% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="15"] {
+  background-position: 75% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="16"] {
+  background-position: 87.5% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="17"] {
+  background-position: 100% 25%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="18"] {
+  background-position: 0% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="19"] {
+  background-position: 12.5% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="20"] {
+  background-position: 25% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="21"] {
+  background-position: 37.5% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="22"] {
+  background-position: 50% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="23"] {
+  background-position: 62.5% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="24"] {
+  background-position: 75% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="25"] {
+  background-position: 87.5% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="26"] {
+  background-position: 100% 50%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="27"] {
+  background-position: 0% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="28"] {
+  background-position: 12.5% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="29"] {
+  background-position: 25% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="30"] {
+  background-position: 37.5% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="31"] {
+  background-position: 50% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="32"] {
+  background-position: 62.5% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="33"] {
+  background-position: 75% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="34"] {
+  background-position: 87.5% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="35"] {
+  background-position: 100% 75%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="36"] {
+  background-position: 0% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="37"] {
+  background-position: 12.5% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="38"] {
+  background-position: 25% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="39"] {
+  background-position: 37.5% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="40"] {
+  background-position: 50% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="41"] {
+  background-position: 62.5% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="42"] {
+  background-position: 75% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="43"] {
+  background-position: 87.5% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-cell="44"] {
+  background-position: 100% 100%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="0"] {
+  top: 0%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="1"] {
+  top: 0%;
+  left: 11.1111111111%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="2"] {
+  top: 0%;
+  left: 22.2222222222%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="3"] {
+  top: 0%;
+  left: 33.3333333333%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="4"] {
+  top: 0%;
+  left: 44.4444444444%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="5"] {
+  top: 0%;
+  left: 55.5555555556%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="6"] {
+  top: 0%;
+  left: 66.6666666667%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="7"] {
+  top: 0%;
+  left: 77.7777777778%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="8"] {
+  top: 0%;
+  left: 88.8888888889%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="9"] {
+  top: 20%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="10"] {
+  top: 20%;
+  left: 11.1111111111%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="11"] {
+  top: 20%;
+  left: 22.2222222222%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="12"] {
+  top: 20%;
+  left: 33.3333333333%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="13"] {
+  top: 20%;
+  left: 44.4444444444%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="14"] {
+  top: 20%;
+  left: 55.5555555556%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="15"] {
+  top: 20%;
+  left: 66.6666666667%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="16"] {
+  top: 20%;
+  left: 77.7777777778%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="17"] {
+  top: 20%;
+  left: 88.8888888889%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="18"] {
+  top: 40%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="19"] {
+  top: 40%;
+  left: 11.1111111111%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="20"] {
+  top: 40%;
+  left: 22.2222222222%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="21"] {
+  top: 40%;
+  left: 33.3333333333%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="22"] {
+  top: 40%;
+  left: 44.4444444444%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="23"] {
+  top: 40%;
+  left: 55.5555555556%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="24"] {
+  top: 40%;
+  left: 66.6666666667%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="25"] {
+  top: 40%;
+  left: 77.7777777778%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="26"] {
+  top: 40%;
+  left: 88.8888888889%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="27"] {
+  top: 60%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="28"] {
+  top: 60%;
+  left: 11.1111111111%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="29"] {
+  top: 60%;
+  left: 22.2222222222%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="30"] {
+  top: 60%;
+  left: 33.3333333333%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="31"] {
+  top: 60%;
+  left: 44.4444444444%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="32"] {
+  top: 60%;
+  left: 55.5555555556%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="33"] {
+  top: 60%;
+  left: 66.6666666667%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="34"] {
+  top: 60%;
+  left: 77.7777777778%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="35"] {
+  top: 60%;
+  left: 88.8888888889%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="36"] {
+  top: 80%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="37"] {
+  top: 80%;
+  left: 11.1111111111%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="38"] {
+  top: 80%;
+  left: 22.2222222222%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="39"] {
+  top: 80%;
+  left: 33.3333333333%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="40"] {
+  top: 80%;
+  left: 44.4444444444%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="41"] {
+  top: 80%;
+  left: 55.5555555556%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="42"] {
+  top: 80%;
+  left: 66.6666666667%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="43"] {
+  top: 80%;
+  left: 77.7777777778%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="6"] .puzzle-cell[data-pos="44"] {
+  top: 80%;
+  left: 88.8888888889%;
+}
+
+/* line 51, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] #puzzle-wrapper {
+  padding-top: 59.031979256698%;
+}
+/* line 54, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell {
+  position: absolute;
+  width: 10%;
+  height: 16.6666666667%;
+  background-size: 1000%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="0"] {
+  background-position: 0% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="1"] {
+  background-position: 11.1111111111% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="2"] {
+  background-position: 22.2222222222% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="3"] {
+  background-position: 33.3333333333% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="4"] {
+  background-position: 44.4444444444% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="5"] {
+  background-position: 55.5555555556% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="6"] {
+  background-position: 66.6666666667% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="7"] {
+  background-position: 77.7777777778% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="8"] {
+  background-position: 88.8888888889% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="9"] {
+  background-position: 100% 0%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="10"] {
+  background-position: 0% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="11"] {
+  background-position: 11.1111111111% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="12"] {
+  background-position: 22.2222222222% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="13"] {
+  background-position: 33.3333333333% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="14"] {
+  background-position: 44.4444444444% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="15"] {
+  background-position: 55.5555555556% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="16"] {
+  background-position: 66.6666666667% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="17"] {
+  background-position: 77.7777777778% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="18"] {
+  background-position: 88.8888888889% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="19"] {
+  background-position: 100% 20%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="20"] {
+  background-position: 0% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="21"] {
+  background-position: 11.1111111111% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="22"] {
+  background-position: 22.2222222222% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="23"] {
+  background-position: 33.3333333333% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="24"] {
+  background-position: 44.4444444444% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="25"] {
+  background-position: 55.5555555556% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="26"] {
+  background-position: 66.6666666667% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="27"] {
+  background-position: 77.7777777778% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="28"] {
+  background-position: 88.8888888889% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="29"] {
+  background-position: 100% 40%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="30"] {
+  background-position: 0% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="31"] {
+  background-position: 11.1111111111% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="32"] {
+  background-position: 22.2222222222% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="33"] {
+  background-position: 33.3333333333% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="34"] {
+  background-position: 44.4444444444% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="35"] {
+  background-position: 55.5555555556% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="36"] {
+  background-position: 66.6666666667% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="37"] {
+  background-position: 77.7777777778% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="38"] {
+  background-position: 88.8888888889% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="39"] {
+  background-position: 100% 60%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="40"] {
+  background-position: 0% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="41"] {
+  background-position: 11.1111111111% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="42"] {
+  background-position: 22.2222222222% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="43"] {
+  background-position: 33.3333333333% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="44"] {
+  background-position: 44.4444444444% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="45"] {
+  background-position: 55.5555555556% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="46"] {
+  background-position: 66.6666666667% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="47"] {
+  background-position: 77.7777777778% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="48"] {
+  background-position: 88.8888888889% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="49"] {
+  background-position: 100% 80%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="50"] {
+  background-position: 0% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="51"] {
+  background-position: 11.1111111111% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="52"] {
+  background-position: 22.2222222222% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="53"] {
+  background-position: 33.3333333333% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="54"] {
+  background-position: 44.4444444444% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="55"] {
+  background-position: 55.5555555556% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="56"] {
+  background-position: 66.6666666667% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="57"] {
+  background-position: 77.7777777778% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="58"] {
+  background-position: 88.8888888889% 100%;
+}
+/* line 62, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-cell="59"] {
+  background-position: 100% 100%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="0"] {
+  top: 0%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="1"] {
+  top: 0%;
+  left: 10%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="2"] {
+  top: 0%;
+  left: 20%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="3"] {
+  top: 0%;
+  left: 30%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="4"] {
+  top: 0%;
+  left: 40%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="5"] {
+  top: 0%;
+  left: 50%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="6"] {
+  top: 0%;
+  left: 60%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="7"] {
+  top: 0%;
+  left: 70%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="8"] {
+  top: 0%;
+  left: 80%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="9"] {
+  top: 0%;
+  left: 90%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="10"] {
+  top: 16.6666666667%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="11"] {
+  top: 16.6666666667%;
+  left: 10%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="12"] {
+  top: 16.6666666667%;
+  left: 20%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="13"] {
+  top: 16.6666666667%;
+  left: 30%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="14"] {
+  top: 16.6666666667%;
+  left: 40%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="15"] {
+  top: 16.6666666667%;
+  left: 50%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="16"] {
+  top: 16.6666666667%;
+  left: 60%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="17"] {
+  top: 16.6666666667%;
+  left: 70%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="18"] {
+  top: 16.6666666667%;
+  left: 80%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="19"] {
+  top: 16.6666666667%;
+  left: 90%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="20"] {
+  top: 33.3333333333%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="21"] {
+  top: 33.3333333333%;
+  left: 10%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="22"] {
+  top: 33.3333333333%;
+  left: 20%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="23"] {
+  top: 33.3333333333%;
+  left: 30%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="24"] {
+  top: 33.3333333333%;
+  left: 40%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="25"] {
+  top: 33.3333333333%;
+  left: 50%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="26"] {
+  top: 33.3333333333%;
+  left: 60%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="27"] {
+  top: 33.3333333333%;
+  left: 70%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="28"] {
+  top: 33.3333333333%;
+  left: 80%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="29"] {
+  top: 33.3333333333%;
+  left: 90%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="30"] {
+  top: 50%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="31"] {
+  top: 50%;
+  left: 10%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="32"] {
+  top: 50%;
+  left: 20%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="33"] {
+  top: 50%;
+  left: 30%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="34"] {
+  top: 50%;
+  left: 40%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="35"] {
+  top: 50%;
+  left: 50%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="36"] {
+  top: 50%;
+  left: 60%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="37"] {
+  top: 50%;
+  left: 70%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="38"] {
+  top: 50%;
+  left: 80%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="39"] {
+  top: 50%;
+  left: 90%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="40"] {
+  top: 66.6666666667%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="41"] {
+  top: 66.6666666667%;
+  left: 10%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="42"] {
+  top: 66.6666666667%;
+  left: 20%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="43"] {
+  top: 66.6666666667%;
+  left: 30%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="44"] {
+  top: 66.6666666667%;
+  left: 40%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="45"] {
+  top: 66.6666666667%;
+  left: 50%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="46"] {
+  top: 66.6666666667%;
+  left: 60%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="47"] {
+  top: 66.6666666667%;
+  left: 70%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="48"] {
+  top: 66.6666666667%;
+  left: 80%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="49"] {
+  top: 66.6666666667%;
+  left: 90%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="50"] {
+  top: 83.3333333333%;
+  left: 0%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="51"] {
+  top: 83.3333333333%;
+  left: 10%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="52"] {
+  top: 83.3333333333%;
+  left: 20%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="53"] {
+  top: 83.3333333333%;
+  left: 30%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="54"] {
+  top: 83.3333333333%;
+  left: 40%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="55"] {
+  top: 83.3333333333%;
+  left: 50%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="56"] {
+  top: 83.3333333333%;
+  left: 60%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="57"] {
+  top: 83.3333333333%;
+  left: 70%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="58"] {
+  top: 83.3333333333%;
+  left: 80%;
+}
+/* line 69, ../sass/puzzle.scss */
+#puzzle-main[data-level="7"] .puzzle-cell[data-pos="59"] {
+  top: 83.3333333333%;
+  left: 90%;
+}
+
 /* line 80, ../sass/puzzle.scss */
 #puzzle-main > div {
   background-color: #131313;
@@ -21763,6 +22732,18 @@
   cursor: not-allowed;
 }
 
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="0"] li[data-level="6"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="0"] li[data-level="7"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
 /* line 148, ../sass/puzzle.scss */
 #navbar-collapse[data-unlocked="1"] li[data-level="0"] .level-lock {
   display: none;
@@ -21798,6 +22779,18 @@
 
 /* line 156, ../sass/puzzle.scss */
 #navbar-collapse[data-unlocked="1"] li[data-level="5"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="1"] li[data-level="6"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="1"] li[data-level="7"] a {
   color: #999;
   cursor: not-allowed;
 }
@@ -21840,6 +22833,18 @@
   cursor: not-allowed;
 }
 
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="2"] li[data-level="6"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="2"] li[data-level="7"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
 /* line 148, ../sass/puzzle.scss */
 #navbar-collapse[data-unlocked="3"] li[data-level="0"] .level-lock {
   display: none;
@@ -21877,6 +22882,18 @@
   cursor: not-allowed;
 }
 
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="3"] li[data-level="6"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="3"] li[data-level="7"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
 /* line 148, ../sass/puzzle.scss */
 #navbar-collapse[data-unlocked="4"] li[data-level="0"] .level-lock {
   display: none;
@@ -21909,6 +22926,18 @@
 
 /* line 156, ../sass/puzzle.scss */
 #navbar-collapse[data-unlocked="4"] li[data-level="5"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="4"] li[data-level="6"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="4"] li[data-level="7"] a {
   color: #999;
   cursor: not-allowed;
 }
@@ -21955,7 +22984,110 @@
 }
 
 /* line 156, ../sass/puzzle.scss */
-#navbar-collapse[data-unlocked="5"] li[data-level="5"] a {
+#navbar-collapse[data-unlocked="5"] li[data-level="7"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] li[data-level="0"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] li[data-level="1"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] li[data-level="2"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] li[data-level="3"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] li[data-level="4"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] li[data-level="5"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] li[data-level="6"] .level-lock {
+  display: none;
+}
+
+/* line 152, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] #level-select li[data-level="6"] a {
+  color: #FF0;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="6"] li[data-level="7"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="0"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="1"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="2"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="3"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="4"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="5"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="6"] .level-lock {
+  display: none;
+}
+
+/* line 148, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="7"] .level-lock {
+  display: none;
+}
+
+/* line 152, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] #level-select li[data-level="7"] a {
+  color: #FF0;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="8"] a {
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* line 156, ../sass/puzzle.scss */
+#navbar-collapse[data-unlocked="7"] li[data-level="7"] a {
   color: #999;
   cursor: not-allowed;
 }
@@ -21977,15 +23109,25 @@
 
 /* line 172, ../sass/puzzle.scss */
 .badge[data-level="4"] {
-  background-color: #A60;
+  background-color: #990;
 }
 
 /* line 175, ../sass/puzzle.scss */
 .badge[data-level="5"] {
+  background-color: #A60;
+}
+
+/* line 178, ../sass/puzzle.scss */
+.badge[data-level="6"] {
   background-color: #B00;
 }
 
-/* line 179, ../sass/puzzle.scss */
+/* line 181, ../sass/puzzle.scss */
+.badge[data-level="7"] {
+  background-color: #A06;
+}
+
+/* line 184, ../sass/puzzle.scss */
 .game-stat {
   text-align: center;
   font-size: 30px;
@@ -21993,57 +23135,71 @@
 }
 
 @media (min-width: 720px) {
-  /* line 186, ../sass/puzzle.scss */
+  /* line 191, ../sass/puzzle.scss */
   .game-stat {
     margin-top: 15px;
   }
 }
-/* line 191, ../sass/puzzle.scss */
+/* line 196, ../sass/puzzle.scss */
 .game-stat-note {
   text-align: center;
   margin-bottom: 15px;
 }
 
-/* line 196, ../sass/puzzle.scss */
+/* line 201, ../sass/puzzle.scss */
 .game-footer {
   padding: 15px 0;
 }
 
-/* line 200, ../sass/puzzle.scss */
+/* line 205, ../sass/puzzle.scss */
 .game-stat-row {
   margin-bottom: 15px;
 }
 
-/* line 204, ../sass/puzzle.scss */
+/* line 209, ../sass/puzzle.scss */
 .legal {
   font-size: 13px;
   margin: 10px 0 20px 0;
   color: #999;
 }
 
-/* line 210, ../sass/puzzle.scss */
+/* line 215, ../sass/puzzle.scss */
 .how-to-play {
   margin-top: 15px;
 }
 
-/* line 214, ../sass/puzzle.scss */
+/* line 219, ../sass/puzzle.scss */
 #user-guest a {
   color: #00ccb2;
 }
 
-/* line 218, ../sass/puzzle.scss */
+/* line 223, ../sass/puzzle.scss */
 #user-guest:hover a, #user-guest:active a, #user-guest:focus a {
   color: #00e6c8;
 }
 
-/* line 222, ../sass/puzzle.scss */
+/* line 227, ../sass/puzzle.scss */
 .close2 {
   margin: -4px;
   padding: 6px 12px;
 }
 
-/* line 227, ../sass/puzzle.scss */
+/* line 232, ../sass/puzzle.scss */
 #unlock-error {
   color: #FF6666;
   margin-right: 30px;
+}
+
+/* line 237, ../sass/puzzle.scss */
+#reward-result .modal-body {
+  padding-left: 180px;
+  background: url("/images/unlock.png");
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  min-height: 180px;
+}
+
+/* line 245, ../sass/puzzle.scss */
+#reward-play {
+  margin: 10px 0 20px 0;
 }

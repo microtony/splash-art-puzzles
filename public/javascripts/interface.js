@@ -6,13 +6,26 @@ $(function() {
     unlockedLevel: 0,
     user: {},
     finishCb: function() {
+      var champ = GameUI.champion;
+      var champname = Champions[champ].name;
       $('#puzzle-main').addClass('puzzle-finished');
       $.post('/save', {
-        champion: GameUI.champion,
+        champion: champ,
         level: Game.level
       }, function(res) {
         GameUI.updateLevels();
-        selectLevel(res.unlock || 0);
+        //selectLevel(res.unlock || 0);
+        if (res.unlock) {
+          $('#reward-contents').empty();
+          $('#reward-contents').append('<li>' + champname + ': Level ' + res.unlock + '</li>');
+          for (var i in Champions[champ].skins) {
+            if (Champions[champ].skins[i][2] == res.unlock) {
+              $('#reward-contents').append('<li>Skin: ' + Champions[champ].skins[i][1] + '</li>');
+            }
+          }
+          $('#reward-play').text('Play Level ' + res.unlock);
+          $('#reward-result').modal('show');
+        }
       })
     },
     updateLevels: function(cb) {
@@ -112,6 +125,9 @@ $(function() {
     $('#hint').attr('data-skin', Champions[champ].skins[num][0]);
     GameUI.champion = champ;
     GameUI.skin = Champions[champ].skins[num][0];
+    if (Game.finished) {
+      Game.init();
+    }
   };
   var selectLevel = function(level) {
     $('#level-selected').html('Level ' + level);
@@ -119,7 +135,7 @@ $(function() {
     Game.level = level;
     Game.init();
   };
-  for (var i = 0; i <= 5; i++) {
+  for (var i = 0; i <= 7; i++) {
     $('#level-select-' + i + ' a').click(function(i) {
       return function(e) {
         if (GameUI.unlockedLevel < i) {
@@ -176,5 +192,9 @@ $(function() {
   });
   $('#unlock-submit').click(function() {
     $('#unlock-form').submit();
+  });
+  $('#reward-play').click(function() {
+    selectLevel(GameUI.unlockedLevel);
+    $('#reward-result').modal('hide');
   });
 });

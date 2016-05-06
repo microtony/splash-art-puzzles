@@ -3,8 +3,8 @@ $puzzle-width-sm: 720px;
 $puzzle-width-md: 940px;
 $puzzle-width-lg: 1140px;
 
-$levels: 0 3 2, 1 4 3, 2 5 3,
-         3 6 4, 4 7 4, 5 8 5;
+$levels: 0 3 2, 1 4 3, 2 5 3, 3 6 4, 
+         4 7 4, 5 8 5, 6 9 5, 7 10 6;
 
 .puzzle-wrapper:before {
   content: "";
@@ -143,7 +143,7 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
   }
 }
 
-@for $i from 0 through 5 {
+@for $i from 0 through 7 {
   @for $j from 0 through $i {
     #navbar-collapse[data-unlocked="#{$i}"] li[data-level="#{$j}"] .level-lock {
       display: none;
@@ -152,7 +152,7 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
   #navbar-collapse[data-unlocked="#{$i}"] #level-select li[data-level="#{$i}"] a {
     color: #FF0;
   }
-  @for $j from $i + 1 through 5 {
+  @for $j from $i + 1 through 7 {
     #navbar-collapse[data-unlocked="#{$i}"] li[data-level="#{$j}"] a {
       color: #999;
       cursor: not-allowed;
@@ -170,12 +170,17 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
   background-color: #5A0;
 }
 .badge[data-level="4"] {
-  background-color: #A60;
+  background-color: #990;
 }
 .badge[data-level="5"] {
+  background-color: #A60;
+}
+.badge[data-level="6"] {
   background-color: #B00;
 }
-
+.badge[data-level="7"] {
+  background-color: #A06;
+}
 .game-stat {
   text-align: center;
   font-size: 30px;
@@ -227,4 +232,16 @@ $levels: 0 3 2, 1 4 3, 2 5 3,
 #unlock-error {
   color: #FF6666;
   margin-right: 30px;
+}
+
+#reward-result .modal-body {
+  padding-left: 180px;
+  background: url('/images/unlock.png');
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  min-height: 180px;
+}
+
+#reward-play {
+  margin: 10px 0 20px 0;
 }

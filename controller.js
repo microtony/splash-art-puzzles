@@ -38,7 +38,7 @@ router.post('/save', function(req, res, next) {
     return res.status(500).send({'error' : 'invalid champion'});
   }
   var level = parseInt(req.body.level);
-  if ([0, 1, 2, 3, 4, 5].indexOf(level) == -1) {
+  if ([0, 1, 2, 3, 4, 5, 6, 7].indexOf(level) == -1) {
     return res.status(500).send({'error' : 'invalid level'}); 
   }
   var unlock = level == 5 ? 5 : level + 1;

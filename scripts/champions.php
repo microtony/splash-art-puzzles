@@ -21,7 +21,7 @@ foreach ($champions["data"] as $champion) {
     $lines[] = $skinid . ': "' . "$cdn/img/champion/splash/" . $skinid . '.jpg"';
     $reqlevel = 0;
     if ($skin["num"] > 0) {
-      $reqlevel = hexdec(substr(md5($skinid), 0, 6)) % 5 + 1;
+      $reqlevel = hexdec(substr(md5($skinid), 0, 6)) % 7 + 1;
     }
     $skinnames[] = [$skinid, $skin["name"], $reqlevel];
   }

@@ -52,6 +52,8 @@
               <li id="level-select-3" data-level="3"><a href="#">Level 3 (6x4) <span class="level-lock">🔒</span></a></li>
               <li id="level-select-4" data-level="4"><a href="#">Level 4 (7x4) <span class="level-lock">🔒</span></a></li>
               <li id="level-select-5" data-level="5"><a href="#">Level 5 (8x5) <span class="level-lock">🔒</span></a></li>
+              <li id="level-select-6" data-level="6"><a href="#">Level 6 (9x5) <span class="level-lock">🔒</span></a></li>
+              <li id="level-select-7" data-level="7"><a href="#">Level 7 (10x6) <span class="level-lock">🔒</span></a></li>
             </ul>
           </li>
         </ul>
@@ -120,6 +122,22 @@
           <div class="modal-footer">
             <span id="unlock-error"></span>
             <button id="unlock-submit" class="btn btn-success">Verify</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="reward-result" tabindex="-1" role="dialog" aria-labelledby="reward-header">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a type="button" class="close2 btn btn-primary pull-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+            <h4 class="modal-title" id="unlock-header">New Level Unlocked!</h4>
+          </div>
+          <div class="modal-body">
+            <p>Congratulations! You have unlocked:</p>
+            <ul id="reward-contents">
+            </ul>
+            <button type="button" class="btn btn-warning" id="reward-play"></button>
           </div>
         </div>
       </div>
