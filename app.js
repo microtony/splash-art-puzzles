@@ -41,6 +41,10 @@ app.use(session({
   cookie: { maxAge: 86400000 * 365 * 10 }
 }));
 
+app.get('/', function(req, res) {
+  res.sendFile(path.join(__dirname + '/public/index.htm'));
+});
+
 app.use('/', controller);
 
 // catch 404 and forward to error handler
