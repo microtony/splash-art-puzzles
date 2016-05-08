@@ -99,7 +99,7 @@ $(function() {
     $('#navbar-collapse').attr('data-unlocked', GameUI.unlockedLevel);
     selectLevel(GameUI.unlockedLevel);
     for (var i in champion.skins) {
-      var s = '<li data-level="' + champion.skins[i][2] + '"">';
+      var s = '<li data-level="' + champion.skins[i][2] + '">';
       s += '<a href="#" data-champion="' + champ + '" data-skin="' + i + '">';
       s += champion.skins[i][1] == 'default' ? 'Default Skin' : champion.skins[i][1];
       s += ' <span class="level-lock">🔒 ' + champion.skins[i][2] + ' </span>';

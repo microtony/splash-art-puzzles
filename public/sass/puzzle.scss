@@ -177,10 +177,12 @@ $levels: 0 3 2, 1 4 3, 2 5 3, 3 6 4,
   #navbar-collapse[data-unlocked="#{$i}"] #level-select li[data-level="#{$i}"] a {
     color: #FF0;
   }
-  @for $j from $i + 1 through 7 {
-    #navbar-collapse[data-unlocked="#{$i}"] li[data-level="#{$j}"] a {
-      color: #999;
-      cursor: not-allowed;
+  @if $i != 7 {
+    @for $j from $i + 1 through 7 {
+      #navbar-collapse[data-unlocked="#{$i}"] li[data-level="#{$j}"] a {
+        color: #999;
+        cursor: not-allowed;
+      }
     }
   }
 }

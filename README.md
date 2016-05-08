@@ -6,9 +6,9 @@ microtony's entry for the Riot Games API Challenge 2016
 
 ## How to play
 
-Solve the sliding puzzle by clicking on tiles adjacent to the empty space. Unlock new skins and the next difficulty for the champion by solving the highest unlocked level. Alternatively, you can unlock skins and levels with the Champion Mastery levels of your League of Legends account. Verification can be done by adding a code to one of the mastery pages.
+Sliding puzzles made of splash arts! Featuring 8 different levels (difficulties), click on tiles adjacent to the empty space to solve it. Unlock new skins and the next difficulty for the champion by solving the highest unlocked level. Alternatively, verify your League of Legends account to unlock levels and skins using your in-game Champion Mastery levels! 
 
-There are 8 different levels. Guests starts with Level 0 for every champion. Levels 6 and 7 can only be unlocked by solving level 5 and 6 respectively until Champion Mastery levels 6 and 7 are introduced. 
+Guests starts with Level 0 for every champion. Verification can be done by adding a code to one of the mastery pages. Levels 6 and 7 can only be unlocked by solving level 5 and 6 respectively until Champion Mastery levels 6 and 7 are introduced. 
 
 * Level 0: 3 x 2
 * Level 1: 4 x 3
@@ -18,6 +18,8 @@ There are 8 different levels. Guests starts with Level 0 for every champion. Lev
 * Level 5: 8 x 5
 * Level 6: 9 x 5
 * Level 7: 10 x 6
+
+![Sample Level 7 puzzle (Lux default skin)](./level7.jpg)
 
 ## Development
 
