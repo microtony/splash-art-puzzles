@@ -49,7 +49,17 @@ userSchema.methods.getCompactObject = function() {
     };
   }
 }
-userSchema.methods.updateAccount = function() {
+userSchema.methods.isUpdateRequired = function() {
+  if (!this.connected) {
+    return false;
+  }
+  if (!this.lastUpdate) {
+    return true;
+  }
+  var diff = new Date() - this.lastUpdate;
+  return diff > 3600 * 1000;
+}
+userSchema.methods.updateAccount = function(cb) {
   var urlPrefix = 'https://' + this.region.toLowerCase() + '.api.pvp.net/championmastery/location/' + this.region + '1/player/';
   var urlSuffix = '?api_key=' + process.env.API_KEY;
   var keyToId = {};
@@ -75,7 +85,11 @@ userSchema.methods.updateAccount = function() {
           'level' : champions[i].championLevel
         });
       }
+      that.lastUpdate = new Date();
       that.save();
+      if (cb) {
+        cb();
+      }
     });
   });
 }

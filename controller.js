@@ -15,7 +15,13 @@ router.get('/user', function(req, res, next) {
       req.session.user = null;
       return res.send(User.getEmptyObject());
     }
-    res.send(user.getCompactObject());
+    if (user.isUpdateRequired()) {
+      user.updateAccount(function() {
+        res.send(user.getCompactObject());
+      });
+    } else {
+      res.send(user.getCompactObject());
+    }
   });
 });
 
@@ -97,7 +103,9 @@ router.post('/verify', function(req, res, next) {
           user.name = name;
           user.playerId = id;
           user.save();
-          user.updateAccount();
+          user.updateAccount(function() {
+            res.send({ 'success' : true });
+          });
         } else {
           // merge levels from session user to acuser
           var manual = {};
@@ -113,12 +121,11 @@ router.post('/verify', function(req, res, next) {
             acUser.manual.push({ 'champion' : i, 'level' : manual[i] });
           }
           acUser.save();
-          acUser.updateAccount();
+          acUser.updateAccount(function() {
+            res.send({ 'success' : true });
+          });
           req.session.user = acUser.id;
         }
-        setTimeout(function() {
-          res.send({ 'success' : true });
-        }, 500);
       });
     }
 
