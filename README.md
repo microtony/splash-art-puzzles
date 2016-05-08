@@ -8,7 +8,7 @@ microtony's entry for the Riot Games API Challenge 2016
 
 Sliding puzzles made of splash arts! Featuring 8 different levels (difficulties), click on tiles adjacent to the empty space to solve it. Unlock new skins and the next difficulty for the champion by solving the highest unlocked level. Alternatively, verify your League of Legends account to unlock levels and skins using your in-game Champion Mastery levels! 
 
-Guests starts with Level 0 for every champion. Verification can be done by adding a code to one of the mastery pages. Levels 6 and 7 can only be unlocked by solving level 5 and 6 respectively until Champion Mastery levels 6 and 7 are introduced. 
+Guests starts with Level 0 for every champion. Verification can be done by adding a code to one of the mastery pages. Levels 6 and 7 can only be unlocked by solving level 5 and 6 respectively until Champion Mastery levels 6 and 7 are introduced. Skin unlock levels are generated pseudo-randomly.
 
 * Level 0: 3 x 2
 * Level 1: 4 x 3
@@ -92,7 +92,16 @@ Once connected to an League of Legends account, the Champion Mastery levels will
 
 ## Deployment
 
-You may use your favorite IaaS or PaaS such as Heroku and Openshift. Choose a Node.js gear and add MongoDB to it. Checkout and push the code. There are three additional environment variables that you need to configure:
+You may use your favorite IaaS or PaaS such as Heroku and Openshift.
+
+* Choose a Node.js gear and add MongoDB to it.
+* Checkout the repository locally.
+* Add the Heroku / Openshift Git remote
+* Merge the repositories
+* Run `npm run download` to generate the static Champion data files
+* Push the code
+
+There are three additional environment variables that you need to configure:
 
 * `API_KEY`: Your Riot Games API key
 * `UNLOCK_SECRET`: A secret (long random string) used for generating the code for verifying LoL account.
