@@ -81,25 +81,20 @@ $levels: 0 3 2, 1 4 3, 2 5 3, 3 6 4,
   background-color: #131313;
 }
 
+#puzzle-main > div::after {
+  background-size: cover;
+  content: "";
+  opacity: 0.20;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+  filter: grayscale(50%) blur(5px);
+}
 @each $skin, $url in $skins {
-
-  #puzzle-main[data-skin="#{$skin}"] > div::after {
-    background-image: url($url);
-    background-size: cover;
-    content: "";
-    opacity: 0.20;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: 1;
-    filter: grayscale(50%) blur(5px);
-  }
-  #puzzle-main[data-skin="#{$skin}"] .puzzle-cell {
-    background-image: url($url);
-  }
-  #hint[data-skin="#{$skin}"] {
+  #puzzle-main[data-skin="#{$skin}"] > div::after, #puzzle-main[data-skin="#{$skin}"] .puzzle-cell, #hint[data-skin="#{$skin}"] {
     background-image: url($url);
   }
 }
