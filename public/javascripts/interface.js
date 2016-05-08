@@ -132,6 +132,7 @@ $(function() {
   var selectLevel = function(level) {
     $('#level-selected').html('Level ' + level);
     $('#puzzle-main').attr('data-level', level);
+    $('#hint').attr('data-level', level);
     Game.level = level;
     Game.init();
   };
@@ -201,4 +202,7 @@ $(function() {
     selectLevel(GameUI.unlockedLevel);
     $('#reward-result').modal('hide');
   });
+  for (var i = 0; i < 60; i++) {
+    $('#hint').append('<div class="hint-cell" data-cell="' + i + '"></div>');
+  }
 });

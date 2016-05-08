@@ -6,7 +6,7 @@ $puzzle-width-lg: 1140px;
 $levels: 0 3 2, 1 4 3, 2 5 3, 3 6 4, 
          4 7 4, 5 8 5, 6 9 5, 7 10 6;
 
-.puzzle-wrapper:before {
+#puzzle-wrapper:before {
   content: "";
   display: block;
 }
@@ -34,6 +34,10 @@ $levels: 0 3 2, 1 4 3, 2 5 3, 3 6 4,
     filter: brightness(150%) contrast(80%);
   }
 }
+#hint:before {
+  content: "";
+  display: block;
+}
 #hint-wrapper {
   max-width: 400px;
   padding: 20px;
@@ -44,6 +48,10 @@ $levels: 0 3 2, 1 4 3, 2 5 3, 3 6 4,
   position: relative;
   padding-top: 59.0123456%;
   background-size: contain;
+}
+.hint-cell {
+  border: 1.5px solid #000;
+  position: absolute;
 }
 @each $level, $levelx, $levely in $levels {
   #puzzle-main[data-level="#{$level}"] {
@@ -71,6 +79,28 @@ $levels: 0 3 2, 1 4 3, 2 5 3, 3 6 4,
           left: 100% * $j / $levelx;
         }
       }
+    }
+  }
+  #hint[data-level="#{$level}"] {
+    .hint-cell {
+      width: 100% / $levelx;
+      height: 100% / $levely;
+    }
+    @for $i from 0 through $levely - 1 {
+      @for $j from 0 through $levelx - 1 {
+        .hint-cell[data-cell="#{$i * $levelx + $j}"] {
+          top: 100% * $i / $levely;
+          left: 100% * $j / $levelx;
+        }
+      }
+    }
+    @for $i from $levelx * $levely through 59 {
+      .hint-cell[data-cell="#{$i}"] {
+        display: none;
+      }
+    }
+    .hint-cell[data-cell="#{$levelx * ($levely - 1)}"] {
+      background-color: rgba(30, 30, 30, 0.7);
     }
   }
 }
