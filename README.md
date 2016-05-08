@@ -88,6 +88,8 @@ A sample `user` document is shown below:
 }
 ```
 
+Once connected to an League of Legends account, the Champion Mastery levels will be automatically updated when the user opens Splash Art Puzzles. Cache time is set to 1 hour.
+
 ## Deployment
 
 You may use your favorite IaaS or PaaS such as Heroku and Openshift. Choose a Node.js gear and add MongoDB to it. Checkout and push the code. There are three additional environment variables that you need to configure:
