@@ -72,7 +72,6 @@ $(function() {
       }
       var len = unlockedSkins.length;
       selectSkin(champ, unlockedSkins[Math.floor(Math.random() * len)]);
-      selectLevel(0);
     },
     updateMoves: function() {
       $('#game-moves').text(Game.moves);
